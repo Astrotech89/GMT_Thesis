@@ -403,12 +403,6 @@ INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\p
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplri8r.tfm
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplb8t.vf
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
-INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr7t.vf
-INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\mathpazo\zplmr7m.vf
-INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\mathpazo\fplmri.tfm
-INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\mathpazo\zplmr7y.vf
-INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8t.tfm
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.toc
@@ -478,8 +472,6 @@ INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.out
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.run.xml
 OUTPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.run.xml
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\base\8r.enc
-INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplb8a.pfb
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplb8a.pfb
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplr8a.pfb
