@@ -9,32 +9,95 @@
 \noindent\printcontents[chapters]{}{1}{}
 \noindent\hrulefill
 
-\label{Chapter2} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+\label{Chapter2}% Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
-
+The simulation portion of this research was to find what the response in the focal plane of our science image would be if one or more of the segments was out of phase from the rest.  In order to do this, one segment will be isolated at a time and each of the three aberrations will be applied to it (Piston, Tip, or Tilt).  All 21 combinations for P/T/T for all seven segments will be put into a matrix called the response matrix (RM).  This section will go into the process of building the response matrix as well as preparing the FPWFS.
 
 
 \section{Response Matrix}
+\label{sec:RM}
 
-At the beginning of this project I was given two files, both of which were representative of the GMT pupil.  One was a binary amplitude mask of the GMT pupil and the other was the phase mask of the 
+At the beginning of this project I was given two files, both of which were representative of the GMT pupil.  One was a binary amplitude mask of the GMT pupil (Figure \ref{fig:amp_mask} and the other was the phase mask (Figure \ref{fig:phase_mask} that would be induced by the vAPP.  Both masks have the asymmetry discussed in \S \ref{sec:vAPP} in order to detect all of the modal basis set in the focal plane.
 
 \begin{figure}[H]
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=10cm]{Figures/GMT_seg_choice.jpg}
+  \includegraphics[width=6.5cm]{Figures/GMT_seg_choice.jpg}
   \caption{Amplitude mask of the GMT pupil.  Each segment is labeled 1-7 for which segment is to be isolated by the code.}
-  \label{fig:sub1}
+  \label{fig:amp_mask}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=12cm]{Figures/gmt_phase_mask.jpg}
-  \caption{A subfigure}
-  \label{fig:sub2}
+  \includegraphics[width=6.5cm]{Figures/gmt_phase_mask.jpg}
+  \caption{GMT phase mask that will be induced by the vAPP.  Each segment has a sinusoidal wave going across each segment.}
+  \label{fig:phase_mask}
 \end{subfigure}
-\caption{A figure with two subfigures}
-\label{fig:test}
+\caption{Asymmetric pupil planes used for simulation of the GMT FPWFS test}
+\label{fig:asym_pupils}
 \end{figure}
+
+
+In order to apply aberrations to a segment, I needed to isolate one of the segments.  The code makes a circle of ones roughly the shape of the segment, and zeros across the rest of the array. When the circle mask was multiplied by Figure \ref{fig:amp_mask} we get the segment isolated (Figure \ref{fig:single_seg}).  With the segment isolated, we now want to add an aberration to this segment.  As an example I will look at tilt.  With the segment isolated, the code generates a tip across the entire image and then makes sure that the values range from -1 to 1 only for the segment (Figure \ref{fig:tilt_seg}).  
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=6.5cm]{Figures/isolated_seg.png}
+  \caption{Segment 4 isolated by the code.}
+  \label{fig:single_seg}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=6.5cm]{Figures/tip_single_seg.jpg}
+  \caption{GMT phase mask that will be induced by the vAPP.  Each segment has a sinusoidal wave going across each segment.}
+  \label{fig:tilt_seg}
+\end{subfigure}
+% \caption{Asymmetric pupil planes used for simulation of the GMT FPWFS test}
+\label{fig:isolated_seg}
+\end{figure}
+
+However, we want to know the physical values of the tilt rather than just applying a tilt to the segment.  In order to do this, we will apply an optical path difference (OPD) between the unaberrated segment and the segment with aberration.  The phase difference is given by:
+\begin{equation}
+    \phi = 2 \pi \times \frac{d}{\lambda}
+    \label{eq:OPD}
+\end{equation}
+Where $d$ is a distance in nanometers and $\lambda$ is the operation wavelength.  In this case, $\lambda = 532$nm.  This is because the vAPP used on our optical testbed was tuned for lasers operating at 532nm.  For simplicity, the code constructed the matrix for an OPD of 1nm so Equation \ref{eq:OPD} is simplified to $\phi = 2 \pi / \lambda$.  With the phase difference calculated, it is multiplied by the tilt array (Figure \ref{fig:tilt_seg}), to give us a segment with the appropriate values.  With the modification done to the segment, next step is to recombine the aberration (Figure \ref{fig:tilt_seg}), amplitude mask (Figure \ref{fig:amp_mask}, as well as the phase mask (Figure \ref{fig:phase_mask}).  To do this, I used the following equation:
+
+\begin{equation}
+    I = A \times e^{i \phi}
+    \label{eq:intensity}
+\end{equation}
+
+Where $I$ is intensity, $A$ is the amplitude (Figure \ref{fig:amp_mask}) and $\phi$ is the phase of light (Figure \ref{fig:phase_mask}).  However, just using Equation \ref{eq:intensity} will give a unaberrated image.  Using the OPD, we combine the aberration and unaberrated pupil plane in the exponential because these are phase differences.  This is done for each of the three PSFs that come from the vAPP.  So we now have three different intensity equations:
+
+\begin{align}
+    & I_{top} = A \times e^{(i \cdot (\phi_{ab} + \phi))} \label{eq:top_PSF} \\
+    & I_{leakage} = A \times 0.1 \times e^{i \phi_{ab}} \label{eq:leak_PSF} \\
+    & I_{bottom} = A \times e^{(-i \phi) + (i \phi_{ab})} \label{eq:bottom_PSF}
+\end{align}
+
+Here $\phi_{ab}$ is the phase aberration we previously made, and the multiplication factor of 0.1 for Equation \ref{eq:leak_PSF} is an intensity approximation of the leakage term.  With all of these combined
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=6.5cm]{Figures/tilt_comb.jpg}
+  \caption{Pupil image with induced tilt aberration}
+  \label{fig:tilt_pupil}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=6.5cm]{Figures/PSF_tilt.png}
+  \caption{Log scale of focal plane with tilt aberration.  Note that }
+  \label{fig:tilt_focal}
+\end{subfigure}
+\caption{Asymmetric pupil planes used for simulation of the GMT FPWFS test}
+\label{fig:abb_images}
+\end{figure}
+
 
 
 \section{Control Matrix}
