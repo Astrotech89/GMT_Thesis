@@ -141,7 +141,7 @@ aberration can output an amplitude of each mode in our modal basis set (P/T/T).
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width = 12cm]{Figures/I_diff.png}
+    \includegraphics[width = 6cm]{Figures/I_diff.png}
     \caption{Focal plane response for tilt on segment 4.}
     \label{fig:I_diff}
 \end{figure}
@@ -150,4 +150,33 @@ aberration can output an amplitude of each mode in our modal basis set (P/T/T).
 
 \section{Control Matrix}
 
-Construct the control matrix is slightly more involved than making a simple transpose of the response matrix.
+Construction of the control matrix involves taking a pseudo-inverse of the RM.  This is done using singular value
+decomposition of the RM.  Singular value decomposition (SVD) in linear algebra, is a way of decomposing a real or
+complex square matrix into the pseudoinverse of a matrix \cite{Hestenes1958InversionResults}.  First we decompose
+our response matrix $M$ into $M = U \Sigma V^{\ast}$ and the pseudoinverse is:
+
+\begin{equation}
+    M^{\dagger} = V \Sigma^{\dagger} U^{\ast}
+\end{equation}
+
+Where $\Sigma^{\dagger}$ is the pseudoinverse of $\Sigma$.  This is formed by replacing every non-zero diagonal entry by
+its reciprocal and transposing the resulting matrix \cite{Hestenes1958InversionResults}.  A visual example of this
+process can be seen in Figure \ref{fig:SVD}. Luckily all this complicated matrix inversion is simply done in HCIpy using
+the function $inverse\_tikhonov$ \cite{por2018hcipy}.  However, to test the inversion of the matrix, I plotted the
+singular values $\Sigma$ and compared them to previous values calculated .
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 6cm]{Figures/Singular_value_decomposition_visualisation.jpg}
+    \caption{A visual of Singular Value Decomposition}
+    \label{fig:SVD}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 14cm]{Figures/singular_values.png}
+    \caption{Singular Values of the Control Matrix}
+    \label{fig:SVD}
+\end{figure}
+
