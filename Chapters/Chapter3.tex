@@ -132,6 +132,8 @@ Next the code takes these inputs and the same amplitude and phase masks used in 
     \label{eq:noll}
 \end{equation}
 
+A comparison of the Noll index set and the Zernike mode ordering can be seen in Figure \ref{fig:zerns}.  The code ignores the first four indices of the Noll basis (piston, tip, tilt, and defocus)  because the system is not sensitive to these modes.  To be clear, the system is insensitive to global piston, tip, and tilt.  However, we are looking for piston, tip, and tilt of individual segments which are detected by this process.  Here the code takes the simulated vAPP image and propagates the image to the pupil plane and applies the first mode and changes the amplitude of that mode to best match the input image.  This continues for each of the modes until the specified end mode.  The output of this code is an amplitude of all the modal set and then summed into a wavefront image.  The results will be discussed in \S \ref{sec:testbed}.
+
 \begin{figure}[H]
 \centering
 \begin{subfigure}{.5\textwidth}
@@ -149,3 +151,4 @@ Next the code takes these inputs and the same amplitude and phase masks used in 
 \caption{Showing noll indexing compared to a visual of the Zernike mode basis set.}
 \label{fig:zerns}
 \end{figure}
+
