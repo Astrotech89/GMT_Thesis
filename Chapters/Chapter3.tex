@@ -116,8 +116,8 @@ Once, we could take images of the vAPP, a series of exposures were taken and bac
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=7cm]{Figures/simulated_vapp.png}
-  \caption{Codes simulated image to match input image (Figure \ref{fig:square_vapp}).}
+  \includegraphics[width=7cm]{Figures/residual.png}
+  \caption{Residuals of the simulated image to match input image (Figure \ref{fig:square_vapp}).}
   \label{fig:sim_square}
 \end{subfigure}
 \caption{}
@@ -125,4 +125,10 @@ Once, we could take images of the vAPP, a series of exposures were taken and bac
 \end{figure}
 
 
-Next the code takes these inputs and the same amplitude and phase masks used in Chapter \ref{Chapter2} to generate an unaberrated vAPP focal plane.  However, in order to match the optical bench, the amplitude mask was replaced by a circular aperture rather than the GMT pupil.  With this in place, a few runs of the code were necessary to match the PSFs using small variations in the wavelength to control the spread of the three PSFs.  A final   
+Next the code takes these inputs and the same amplitude and phase masks used in Chapter \ref{Chapter2} to generate an unaberrated vAPP focal plane.  However, in order to match the optical bench, the amplitude mask was replaced by a circular aperture rather than the GMT pupil.  With this in place, a few runs of the code were necessary to match the PSFs using small variations in the wavelength to control the spread of the three PSFs.  With the simulated vAPP image made, the code then goes through a series of Noll index Zernike modes.  Noll index is a way of ordering the zernike modes using one index $Z_j$ rather than two variables $Z_n^{m'}$\cite{Noll1976ZERNIKETURBULENCE.}.  The indexing of the Noll sequential indicies is as follows:
+
+\begin{equation}
+    j = \frac{n(n+1)}{2} + |m'| + ...
+    \label{eq:noll}
+\end{equation}
+
