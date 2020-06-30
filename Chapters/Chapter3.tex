@@ -68,9 +68,6 @@ With the beam collimated, the reference iris was placed in the system to ensure 
 
 Next was to refocus the light.  In order to test the focal plane a test camera was placed at the focus.  In most cases, we could simply look at the airy rings and core to determine what aberrations we are seeing.  However, the first focal plane was too fast and we were unable to proper sample the PSF.  What we were able to do was put the camera before the focal plane and move it through and past the focal plane.  The would show if there were any signs of coma or astigmatism.  This same process for collimation and focus alignment was repeated for the rest of the system.  
 
-For the flat mirror we put in place of the DM, we needed to divert the light as little as possible to limit the tilt aberration in the system.  After we placed this pseudo-DM, we double checked the aiming and collimation using the reference iris's and shear plate interferometer.  Then a second mirror was placed to continue the light path down the reference holes in the breadboard.  
-
-
 \begin{figure}[H]
 \centering
 \begin{subfigure}{.5\textwidth}
@@ -89,5 +86,22 @@ For the flat mirror we put in place of the DM, we needed to divert the light as 
 \label{fig:focal_images}
 \end{figure}
 
+For the flat mirror we put in place of the DM, we needed to divert the light as little as possible to limit the tilt aberration in the system.  After we placed this pseudo-DM, we double checked the aiming and collimation using the reference iris's and shear plate interferometer.  Then a second mirror was placed to continue the light path down the reference holes in the breadboard.  
+
+
+
+After collimation, A4 was placed in.  A4 was a long enough focal length in order to zoom from the 11mm DM aperture to the $\approx 6$mm aperture that we were able to properly sample the Airy rings.  The intermittent focal plane can be seen in Figure \ref{fig:int_focal_plane}.  This allowed for tighter alignment of A4, however as you can see in the figure, there is a slight coma.  This is most likely due to small misalignments in A2 that we could not properly measure.  From here the rest of the system was set up in the same way.  We continued the system without injecting the vAPP so that we could see the optical quality of our final focal plane.  The final result can be seen in Figure \ref{fig:final_focal}.  Then the last step was to inject the vAPP into our system into the pupil plane after A5.  After proper alignment we arrived at the final coronagraph image (Figure \ref{fig:GMT_vapp}). Now that the system is capable of taking coronagraphic images, we need to prove that the system can do wavefront sensing.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 14cm]{Figures/GMT_gvAPP_04_03_2020.jpg}
+    \caption{An overexposed vAPP image taken on our optical setup.  The image was overexposed to show all the features.  From here, further images were underexposed.}
+    \label{fig:GMT_vapp}
+\end{figure}
+
+
+
 
 \section{Images \& Wavefront Decomposition}
+
+Once, we could take images of the vAPP, a series of exposures were taken and background subtracted by taking a series of dark exposures and taking the median of those images.  Due to the unfortunate issues with the DM, we opted to show that the system could do wavefront sensing using a different approach.  The PhD student and one of my advisors Steven Bos, wrote a code to do focal plane wavefront sensing of vAPP images.  First step is to take the exposed image and turn the rectangular array and make it square with the leakage term in the middle.
