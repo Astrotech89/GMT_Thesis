@@ -11,8 +11,50 @@
 % \tableofcontents
 
 % \vspace{5mm}
-\begin{itemize}
-    \item optical layout
-    \item Aligning optics
-    \item Images and Steven's code stuff
-\end{itemize}
+
+
+With the simulation work done showing that we can indeed do focal plane wavefront sensing on the GMT pupil with a vAPP, we now must show that we can do FPWFS on the optical bench.
+
+\section{Optical Layout}
+\label{sec:optical_layout}
+
+The goals of the optical testbed were to simulate piston, tip, and tilt onto each segment of the GMT pupil using a deformable mirror (DM).  So the constraints of our optical system were to match the size of the DM and then zoom onto the GMT vAPP.  First step was to couple a 532nm laser to a single mode optical fiber.  As the laser light leaves the fiber, it will diverge.  The light is collimated using an achromat onto an 11mm circular aperture.  The aperture size was dependant on the aperture size of the DM and made slightly undersized in order to avoid the DM edge actuators which tend to not perform reliably.  With the entrance pupil (EP) set, the achromats need to have a 1:1 relay of the pupil plane onto the DM.  Therefore they were all set to the same focal length.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 12cm]{Figures/optical_bed.png}
+    \caption{Paraxial view of the GMT testbed}
+    \label{fig:optical_layout}
+\end{figure}
+
+After the DM, there needed to be a $\approx$ 1:2 relay in order to zoom the pupil from the 11mm DM aperture to the $\approx 6$mm vAPP aperture on the LC Mask.  Then from the vAPP, the last achromat needed to have a long enough focal length to Nyquist sample the Airy core of the PSF.  Before the LC MASK, a beam splitter was put in to direct light to a Shack-Hartmann wavefront sensor.  This was so that verification of the aberrated wavefront was possible.  The decision to use achromats rather than monochromatic lenses was made so that other projects could use other wavelengths for their purposes.  However, our vAPP was tuned to 532nm.  Figure \ref{fig:optical_layout} shows a paraxial design of the described layout.  However, due to technical difficulties and with the addition of the current pandemic, the DM was replaced by a simple fold mirror.
+
+
+\section{Optical Alignment}
+
+Because the purpose of the optical bench was to do wavefront measurements, optical aberrations were to be kept to a minimum.  This meant going through a rigorous alignment procedure.  Initially we set up the optical bench to a rough approximation of the focal distances to get the total size of the layout.  Then each optic position was marked and removed.  A few Iris's was mounted to a post and measured the height of the outgoing light from the fiber optic.  This was so that we could keep a continuous height through out the entire system.  Next first achromat (A1) was put back in the system.  In order to properly collimiate the light path, we used a shear plate interferometer.  How a shear plate interferometer works, is that as light passes through a 45 degree angle window, part of the light is reflected on each surface.  A diagram of this can be seen in Figure \ref{fig:shearplate}.
+
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=6.5cm]{Figures/ShearPlateDrawing.jpg}
+  \caption{Diagram of how a shear plate interferometer works \cite{ShearingInterferometers}.}
+  \label{fig:shearplate}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=7cm]{Figures/fringes.jpg}
+  \caption{Fringe pattern of the shear plate interferometer.}
+  \label{fig:tilt_focal}
+\end{subfigure}
+\caption{Shear plate interferometer }
+\label{fig:abb_images}
+\end{figure}
+
+
+
+
+\section{Images \& Wavefront Decomposition}
