@@ -104,4 +104,25 @@ After collimation, A4 was placed in.  A4 was a long enough focal length in order
 
 \section{Images \& Wavefront Decomposition}
 
-Once, we could take images of the vAPP, a series of exposures were taken and background subtracted by taking a series of dark exposures and taking the median of those images.  Due to the unfortunate issues with the DM, we opted to show that the system could do wavefront sensing using a different approach.  The PhD student and one of my advisors Steven Bos, wrote a code to do focal plane wavefront sensing of vAPP images.  First step is to take the exposed image and turn the rectangular array and make it square with the leakage term in the middle.
+Once, we could take images of the vAPP, a series of exposures were taken and background subtracted by taking a series of dark exposures and taking the median of those images.  Due to the unfortunate issues with the DM, we opted to show that the system could do wavefront sensing using a different approach.  The PhD student and one of my advisors Steven Bos, wrote a code to do focal plane wavefront sensing of vAPP images.  First step is to take the exposed image and turn the rectangular array and make it square with the leakage term in the middle (Figure \ref{fig:square_vapp}).  The code then needs approximate locations of the three PSFs in radians.  This is easily found by plotting the image in HCIpy and marking the $x$ and $y$ locations of the three PSFs.  There are other parameters that the code needs such as tilt of the PSF and wavelength.  Tilt can be seen in the overexposed image (Figure \ref{fig:GMT_vapp}), and can be calculated using ds9.
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=6.5cm]{Figures/vapp_square.png}
+  \caption{An under exposed vAPP image like that of Figure \ref{fig:GMT_vapp} cropped to a square}
+  \label{fig:square_vapp}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=7cm]{Figures/simulated_vapp.png}
+  \caption{Codes simulated image to match input image (Figure \ref{fig:square_vapp}).}
+  \label{fig:sim_square}
+\end{subfigure}
+\caption{}
+\label{fig:code_images}
+\end{figure}
+
+
+Next the code takes these inputs and the same amplitude and phase masks used in Chapter \ref{Chapter2} to generate an unaberrated vAPP focal plane.  However, in order to match the optical bench, the amplitude mask was replaced by a circular aperture rather than the GMT pupil.  With this in place, a few runs of the code were necessary to match the PSFs using small variations in the wavelength to control the spread of the three PSFs.  A final   
