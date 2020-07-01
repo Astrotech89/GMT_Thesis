@@ -36,12 +36,13 @@ As an example we will focus on the tilt of each segment.  As we can see in Figur
     \label{fig:tilt30}
 \end{figure}
 
-It should be noted that there is a slope difference on segments on segments 3, 4, 6, and 7.  If we refer to Figure \ref{fig:amp_mask}, we can see that these segments are off axis and the aberration is perpendicular to the asymmetry.  This is purely hypothetical but could warrent further investigation.  However, these responses are still linear and can be corrected for.  This slope offset only occurs when tilt is applied.  All plots can be seen in Appendix \ref{AppendixB}
+It should be noted that there is a slope difference on segments on segments 3, 4, 6, and 7.  If we refer to Figure \ref{fig:amp_mask}, we can see that these segments are off axis and the aberration is perpendicular to the asymmetry.  This is purely hypothetical but could warrent further investigation.  However, these responses are still linear and can be corrected for.  This slope offset only occurs when tilt is applied.  All plots can be seen in Appendix \ref{AppendixB}.
 
+\newpage
 \section{Testbed Results}
 \label{sec:testbed}
 
-After putting the exposed images through the code, the out put is a wavefront error map and an output of each of the amplitudes of the modal basis set (Figure \ref{fig:wavefront_map}).  
+After putting the exposed images through the code, the out put is a wavefront error map and an output of each of the amplitudes of the modal basis set (Figure \ref{fig:wavefront_map}).  We can then make a plot of the amplitudes of each Noll index like that shown in Figure \ref{fig:ampvsnoll}.  These aberrations were the aberrations we could not correct for in our alignment procedure.  However, these plots show that our testbed demonstration can in fact do focal plane wavefront sensing.
 
 \begin{figure}[H]
 \centering
@@ -64,3 +65,5 @@ After putting the exposed images through the code, the out put is a wavefront er
 
 \section{Future Work}
 \label{sec:future}
+
+The work done here shows that using an asymmetric pupil vector apodizing phase plate (APvAPP) can indeed do focal plane wavefront sensing.  Ontop of that, simulation shows that we can use this process to phase the segments of the GMT.  However, there is still more work that can be done.  These images will be taken with a non-perfect detector.  Images should have some Gaussian noise applied to them and see how the results differ.  Some additional next steps are to create a closed loop control in simulation where a random set of aberrations are applied to the pupil and detected by the code.  The code should then output the amplitude of the aberrations and correct for that.  In addition, it would be good to demonstrate this on the optical testbed using a DM.  The DM would be able to apply P/T/T to individual segments and then run a closed control loop to correct the aberrations on the DM.  
