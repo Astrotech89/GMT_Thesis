@@ -5,19 +5,20 @@
 \contentsline {chapter}{Acknowledgements}{ix}{section*.3}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.10}%
 \contentsline {section}{\numberline {1.1}Segmented Mirrors / Active Optics}{2}{section.12}%
-\contentsline {section}{\numberline {1.2}FPWFS}{4}{section.16}%
-\contentsline {section}{\numberline {1.3}Vector Apodizing Phase Plate}{4}{section.17}%
-\contentsline {chapter}{\numberline {2}Simulation}{5}{chapter.18}%
-\contentsline {section}{\numberline {2.1}Response Matrix}{5}{section.19}%
-\contentsline {section}{\numberline {2.2}Control Matrix}{8}{section.29}%
-\contentsline {chapter}{\numberline {3}Optical Testbed}{11}{chapter.33}%
-\contentsline {section}{\numberline {3.1}Optical Layout}{11}{section.34}%
-\contentsline {section}{\numberline {3.2}Optical Alignment}{12}{section.36}%
-\contentsline {section}{\numberline {3.3}Images \& Wavefront Decomposition}{14}{section.41}%
-\contentsline {chapter}{\numberline {4}Results}{17}{chapter.45}%
-\contentsline {section}{\numberline {4.1}Simulation Results}{17}{section.46}%
-\contentsline {section}{\numberline {4.2}Testbed Results}{19}{section.49}%
-\contentsline {section}{\numberline {4.3}Future Work}{19}{section.51}%
-\contentsline {chapter}{\numberline {A}Response Matrix Images}{21}{appendix.52}%
-\contentsline {chapter}{\numberline {B}Simulation Results}{23}{appendix.54}%
+\contentsline {section}{\numberline {1.2}FPWFS}{4}{section.17}%
+\contentsline {subsection}{\numberline {1.2.1}Vector Apodizing Phase Plate}{4}{subsection.18}%
+\contentsline {subsection}{\numberline {1.2.2}Asymmetric Pupil}{5}{subsection.20}%
+\contentsline {chapter}{\numberline {2}Simulation}{7}{chapter.24}%
+\contentsline {section}{\numberline {2.1}Response Matrix}{7}{section.25}%
+\contentsline {section}{\numberline {2.2}Control Matrix}{10}{section.35}%
+\contentsline {chapter}{\numberline {3}Optical Testbed}{13}{chapter.39}%
+\contentsline {section}{\numberline {3.1}Optical Layout}{13}{section.40}%
+\contentsline {section}{\numberline {3.2}Optical Alignment}{14}{section.42}%
+\contentsline {section}{\numberline {3.3}Images \& Wavefront Decomposition}{16}{section.47}%
+\contentsline {chapter}{\numberline {4}Results}{19}{chapter.51}%
+\contentsline {section}{\numberline {4.1}Simulation Results}{19}{section.52}%
+\contentsline {section}{\numberline {4.2}Testbed Results}{21}{section.55}%
+\contentsline {section}{\numberline {4.3}Future Work}{21}{section.57}%
+\contentsline {chapter}{\numberline {A}Response Matrix Images}{23}{appendix.58}%
+\contentsline {chapter}{\numberline {B}Simulation Results}{25}{appendix.60}%
 \contentsfinish 

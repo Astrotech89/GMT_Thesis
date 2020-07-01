@@ -1,24 +1,24 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
-[1] Config.pm:307> INFO - Logfile is 'main.blg'
-[74] biber-MSWIN64:322> INFO - === 
-[95] Biber.pm:415> INFO - Reading 'main.bcf'
-[230] Biber.pm:943> INFO - Found 7 citekeys in bib section 0
-[249] Biber.pm:4256> INFO - Processing section 0
-[250] Utils.pm:75> INFO - Globbing data source 'references.bib'
-[262] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
-[262] Utils.pm:75> INFO - Globbing data source 'example.bib'
-[262] Utils.pm:91> INFO - Globbed data source 'example.bib' to example.bib
-[278] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 0
-[284] bibtex.pm:1653> INFO - LaTeX decoding ...
-[324] bibtex.pm:1471> INFO - Found BibTeX data source 'references.bib'
-[357] Biber.pm:4455> INFO - Looking for bibtex format file 'example.bib' for section 0
-[363] bibtex.pm:1653> INFO - LaTeX decoding ...
-[396] bibtex.pm:1471> INFO - Found BibTeX data source 'example.bib'
-[401] Utils.pm:304> WARN - I didn't find a database entry for 'por2018hcipy' (section 0)
-[413] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[413] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[413] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[413] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[434] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[439] bbl.pm:755> INFO - Output to main.bbl
-[441] Biber.pm:128> INFO - WARNINGS: 1
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[65] biber-MSWIN64:322> INFO - === 
+[83] Biber.pm:415> INFO - Reading 'main.bcf'
+[179] Biber.pm:943> INFO - Found 10 citekeys in bib section 0
+[195] Biber.pm:4256> INFO - Processing section 0
+[195] Utils.pm:75> INFO - Globbing data source 'references.bib'
+[205] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
+[205] Utils.pm:75> INFO - Globbing data source 'example.bib'
+[205] Utils.pm:91> INFO - Globbed data source 'example.bib' to example.bib
+[220] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 0
+[227] bibtex.pm:1653> INFO - LaTeX decoding ...
+[262] bibtex.pm:1471> INFO - Found BibTeX data source 'references.bib'
+[334] Biber.pm:4455> INFO - Looking for bibtex format file 'example.bib' for section 0
+[339] bibtex.pm:1653> INFO - LaTeX decoding ...
+[371] bibtex.pm:1471> INFO - Found BibTeX data source 'example.bib'
+[374] Utils.pm:304> WARN - I didn't find a database entry for 'por2018hcipy' (section 0)
+[389] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[390] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[390] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[390] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[406] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[411] bbl.pm:755> INFO - Output to main.bbl
+[411] Biber.pm:128> INFO - WARNINGS: 1

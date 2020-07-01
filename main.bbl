@@ -19,6 +19,42 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Acton2012PhasingGMT}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=dac0b4fb3dce0d15eb533ddd0abfe484}{%
+           family={Acton},
+           familyi={A\bibinitperiod},
+           given={D\bibnamedelima Scott},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c03c1d999064a6a1db19c4e3b415d6af}{%
+           family={Bouchez},
+           familyi={B\bibinitperiod},
+           given={Antonin},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{696a2aa923b0e694cbf60a8493af0872}
+      \strng{fullhash}{696a2aa923b0e694cbf60a8493af0872}
+      \strng{bibnamehash}{696a2aa923b0e694cbf60a8493af0872}
+      \strng{authorbibnamehash}{696a2aa923b0e694cbf60a8493af0872}
+      \strng{authornamehash}{696a2aa923b0e694cbf60a8493af0872}
+      \strng{authorfullhash}{696a2aa923b0e694cbf60a8493af0872}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Ground-based and Airborne Telescopes IV}
+      \field{isbn}{9780819491459}
+      \field{issn}{0277786X}
+      \field{title}{{Phasing metrology system for the GMT}}
+      \field{volume}{8444}
+      \field{year}{2012}
+      \field{pages}{844423}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1117/12.925012
+      \endverb
+      \keyw{Extremely Large Telescopes,Wavefront Sensing and Controls}
+    \endentry
     \entry{BeatingObservatory}{misc}{}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
@@ -29,6 +65,123 @@
       \endverb
       \verb{url}
       \verb https://web.archive.org/web/20101006071550/http://keckobservatory.org/cosmicmatters/article/beating_the_odds/
+      \endverb
+    \endentry
+    \entry{Bos2019Focal-planePlate}{article}{}
+      \name{author}{9}{}{%
+        {{hash=13c3cc1981d69023442ee69313fce4dc}{%
+           family={Bos},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=91d3f9168ad76164ac92d268746514ee}{%
+           family={Doelman},
+           familyi={D\bibinitperiod},
+           given={D.\bibnamedelimi S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=89b6728d82992be517ebd50d44b02353}{%
+           family={Lozi},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5243fcf555802fbe3f70170f1e2e1072}{%
+           family={Guyon},
+           familyi={G\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=04228f0731e4252c08a612ca7299742d}{%
+           family={Keller},
+           familyi={K\bibinitperiod},
+           given={C.\bibnamedelimi U.},
+           giveni={C\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+        {{hash=0866445a446232f82076883b021c789f}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={K.\bibnamedelimi L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=c72e5224f7ef558b462288781456ca29}{%
+           family={Jovanovic},
+           familyi={J\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=321533ce0ad154d5249aacae8d41a1a7}{%
+           family={Martinache},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d9598f955dc519a5254c9fee1ce63315}{%
+           family={Snik},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{eaca6b98dacc67d11caba32cfdb8e0b0}
+      \strng{fullhash}{eaca6b98dacc67d11caba32cfdb8e0b0}
+      \strng{bibnamehash}{eaca6b98dacc67d11caba32cfdb8e0b0}
+      \strng{authorbibnamehash}{eaca6b98dacc67d11caba32cfdb8e0b0}
+      \strng{authornamehash}{eaca6b98dacc67d11caba32cfdb8e0b0}
+      \strng{authorfullhash}{eaca6b98dacc67d11caba32cfdb8e0b0}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{14320746}
+      \field{journaltitle}{Astronomy and Astrophysics}
+      \field{title}{{Focal-plane wavefront sensing with the vector-Apodizing Phase Plate}}
+      \field{volume}{632}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1051/0004-6361/201936062
+      \endverb
+      \keyw{Instrumentation: adaptive optics,Instrumentation: high angular resolution}
+    \endentry
+    \entry{Chanan1994}{article}{}
+      \name{author}{5}{}{%
+        {{hash=c1285d349646fea171346e36053579c4}{%
+           family={Chanan},
+           familyi={C\bibinitperiod},
+           given={Gary\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9089d7313278bb2d86a104bbbfebf281}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={Jerry\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=570b17cfc2682dedd000cec6fa0db414}{%
+           family={Mast},
+           familyi={M\bibinitperiod},
+           given={Terry\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=8f6c33d857a45dd492ebc5cd6e00d58a}{%
+           family={Wizinowich},
+           familyi={W\bibinitperiod},
+           given={Peter\bibnamedelima L.},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=889b40537700808dddacc1f8724ddf72}{%
+           family={Schaefer},
+           familyi={S\bibinitperiod},
+           given={Barbara\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2a9d15acad3b2a68d30cd774f293d5f}
+      \strng{fullhash}{f2a9d15acad3b2a68d30cd774f293d5f}
+      \strng{bibnamehash}{f2a9d15acad3b2a68d30cd774f293d5f}
+      \strng{authorbibnamehash}{f2a9d15acad3b2a68d30cd774f293d5f}
+      \strng{authornamehash}{f2a9d15acad3b2a68d30cd774f293d5f}
+      \strng{authorfullhash}{f2a9d15acad3b2a68d30cd774f293d5f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Instrumentation in Astronomy VIII}
+      \field{number}{June 1994}
+      \field{title}{{<title>W.M. Keck Telescope phasing camera system</title>}}
+      \field{volume}{2198}
+      \field{year}{1994}
+      \field{pages}{1139\bibrangedash 1150}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1117/12.176697
       \endverb
     \endentry
     \entry{Hestenes1958InversionResults}{article}{}

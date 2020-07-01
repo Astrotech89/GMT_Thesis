@@ -56,12 +56,12 @@ Active optics is the active control of each mirror segment so that all segments 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=12 cm]{../Figures/KCompDiag}
+\includegraphics[width=8 cm]{../Figures/KCompDiag}
 \caption{A system diagram of the Keck Telescope active control for a segment.}
 \label{fig:active_control}
 \end{figure}
 
-Instead of hexagonal segments the Giant Magellan Telescope will be using seven, 8.4-meter, circular segments to make up it's 25 meter aperture (Figure \ref{fig:GMT_phase}).  Figure \ref{fig:GMT_phase} shows the initial plan to phase the GMT segments using laser interferometers to detect displacements for both fine and co
+Instead of hexagonal segments the Giant Magellan Telescope will be using seven, 8.4-meter, circular segments to make up it's 25 meter aperture (Figure \ref{fig:GMT_phase}).  Figure \ref{fig:GMT_phase} shows the initial plan to phase the GMT segments using laser interferometers to detect displacements for both fine and coarse motions \cite{Acton2012PhasingGMT}.  However, these position sensors, like the capacitors, are differential and need to be calibrated.  Typically, a phasing camera with a wavefront sensor is used to phase the mirror segments together.
 
 
 \begin{figure}[H]
@@ -72,17 +72,63 @@ Instead of hexagonal segments the Giant Magellan Telescope will be using seven, 
 \end{figure}
 
 
+For example, the case of the Keck telescope, there is a seperate instrument all together mounted on a bent Cassegrain port \cite{Chanan1994}.  This camera uses a Shack-Hartmann Wavefront sensonr to measure the piston, tip, and tilt of each segment (Figure \ref{fig:Keck_phase}).  However, for high contrast imaging, this is not an accurate enough way to phase the mirror segments.  High contrast imaging requires as little error as possible in all of the optical systems and the ability to ensure that segments are phased at the focal plane of the camera is highly desireable.  The process of detecting wavefront aberrations in the science images is called Focal Plane Wavefront Sensing (FPWFS).  
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=8 cm]{Figures/keck_phasing.png}
+\caption{A figure of the spot layout for the Keck phasing camera \cite{Chanan1994}.}
+\label{fig:Keck_phase}
+\end{figure}
+
+
+    
 
 \section{FPWFS}
 \label{sec:fpwfs}
 
 
 
-\section{Vector Apodizing Phase Plate}
+\subsection{Vector Apodizing Phase Plate}
 \label{sec:vAPP}
 
+There are a few different approaches to doing FPWFS, but for this paper we will focus on using a type of coronagraphic imaging optic called a vector apodizing phase plate (vAPP).  A vAPP is a half-wave retarder placed in the pupil-plane.  The apodizing phase plate portion of the optic seperates the right and left handed circular polarization of light and then spatially separated by a phase ramp (Figure \ref{fig:vapp_concept}) \cite{Bos2019Focal-planePlate}.
 
 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=14 cm]{Figures/vAPP.png}
+\caption{A conceptual drawing of how a vector apodizing phase plate works \cite{Bos2019Focal-planePlate}.}
+\label{fig:vapp_concept}
+\end{figure}
+
+The spatial separation after being focused will show in the focal plane as two separate coronagraphic PSF's.  However, the portion of the light that is not polarized will pass through the vAPP unaffected and will show in the focal plane as a standard PSF that can be used for referencing.  But for the purposes of this thesis, we will be looking at the three PSFs and use them to deconstruct phase differences in the segments of the GMT.
+
+
+\subsection{Asymmetric Pupil}
+\label{sec:asym_pupil}
+
+Work and theory done in this section is referenced from Steven Bos's paper \textit{Focal-plane wavefront sensing with the vector Apodizing Phase Plate} \cite{Bos2019Focal-planePlate}.
+
+What makes wavefront sensing possible with a vAPP is the asymmetry that is placed in the pupil plane.  The electric field in the pupil can be written down as:
+
+\begin{align}
+    E_{pupil}(r) &= A(r) e^{i \theta(r)} \\
+    &= A(r) (\cos[\theta (r)] + i\sin[\theta (r)]
+    \label{eq:E_field}
+\end{align}
+
+As seen in Equation \ref{eq:E_field}, there is an imaginary component to the electric field.  Propagate this to the focal plane, we get a similar equation only with an added constant of integration.  So this means that only some of the aberrations will appear in our focal plane.  Specifically even phase aberrations will be left out of the focal plane while odd phase aberrations will continue to pass through.  Adding an asymmetry to the pupil plane creates an odd amplitude which generates a real electric field.  The real electric field will interfere with the aberrations' real electric field and will enable detection of the aberration in the focal plane \cite{Bos2019Focal-planePlate}.
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=14 cm]{Figures/asymmetry.png}
+\caption{Figure showing how adding an asymmetry to the pupil plane propagates even phase aberrations and not through a symmetric pupil plane \cite{Bos2019Focal-planePlate}.}
+\label{fig:vapp_concept}
+\end{figure}
 
 
 
