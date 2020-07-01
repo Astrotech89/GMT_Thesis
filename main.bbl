@@ -16,5 +16,144 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{BeatingObservatory}{misc}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labeltitlesource}{title}
+      \field{title}{{Beating the Odds | W. M. Keck Observatory}}
+      \verb{urlraw}
+      \verb https://web.archive.org/web/20101006071550/http://keckobservatory.org/cosmicmatters/article/beating_the_odds/
+      \endverb
+      \verb{url}
+      \verb https://web.archive.org/web/20101006071550/http://keckobservatory.org/cosmicmatters/article/beating_the_odds/
+      \endverb
+    \endentry
+    \entry{Hestenes1958InversionResults}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f6c6be7ca0c4fd448c1ed3d1f5586b29}{%
+           family={Hestenes},
+           familyi={H\bibinitperiod},
+           given={Magnus\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Society for Industrial {\&} Applied Mathematics (SIAM)}%
+      }
+      \strng{namehash}{f6c6be7ca0c4fd448c1ed3d1f5586b29}
+      \strng{fullhash}{f6c6be7ca0c4fd448c1ed3d1f5586b29}
+      \strng{bibnamehash}{f6c6be7ca0c4fd448c1ed3d1f5586b29}
+      \strng{authorbibnamehash}{f6c6be7ca0c4fd448c1ed3d1f5586b29}
+      \strng{authornamehash}{f6c6be7ca0c4fd448c1ed3d1f5586b29}
+      \strng{authorfullhash}{f6c6be7ca0c4fd448c1ed3d1f5586b29}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0368-4245}
+      \field{journaltitle}{Journal of the Society for Industrial and Applied Mathematics}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{{Inversion of Matrices by Biorthogonalization and Related Results}}
+      \field{volume}{6}
+      \field{year}{1958}
+      \field{pages}{51\bibrangedash 90}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1137/0106005
+      \endverb
+    \endentry
+    \entry{LOFTSystems.}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labeltitlesource}{title}
+      \field{title}{{LOFT, Large Optics Fabrication and Testing group with OEFF {\&} RFCML | Developing advanced technologies for optical testing and fabrication of large optical components and systems.}}
+      \verb{urlraw}
+      \verb http://www.loft.optics.arizona.edu/
+      \endverb
+      \verb{url}
+      \verb http://www.loft.optics.arizona.edu/
+      \endverb
+    \endentry
+    \entry{Nelson1990titleConstructionObservatory/title}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9089d7313278bb2d86a104bbbfebf281}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={Jerry\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=570b17cfc2682dedd000cec6fa0db414}{%
+           family={Mast},
+           familyi={M\bibinitperiod},
+           given={Terry\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d852c4a049ab010d3537face585bdc0}
+      \strng{fullhash}{4d852c4a049ab010d3537face585bdc0}
+      \strng{bibnamehash}{4d852c4a049ab010d3537face585bdc0}
+      \strng{authorbibnamehash}{4d852c4a049ab010d3537face585bdc0}
+      \strng{authornamehash}{4d852c4a049ab010d3537face585bdc0}
+      \strng{authorfullhash}{4d852c4a049ab010d3537face585bdc0}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advanced Technology Optical Telescopes IV}
+      \field{number}{July 1990}
+      \field{title}{{<title>Construction of the Keck Observatory</title>}}
+      \field{volume}{1236}
+      \field{year}{1990}
+      \field{pages}{47\bibrangedash 55}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1117/12.19171
+      \endverb
+    \endentry
+    \entry{Noll1976ZERNIKETURBULENCE.}{article}{}
+      \name{author}{1}{}{%
+        {{hash=516aa9c0c7fd30850a08652e1c9e46ba}{%
+           family={Noll},
+           familyi={N\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{516aa9c0c7fd30850a08652e1c9e46ba}
+      \strng{fullhash}{516aa9c0c7fd30850a08652e1c9e46ba}
+      \strng{bibnamehash}{516aa9c0c7fd30850a08652e1c9e46ba}
+      \strng{authorbibnamehash}{516aa9c0c7fd30850a08652e1c9e46ba}
+      \strng{authornamehash}{516aa9c0c7fd30850a08652e1c9e46ba}
+      \strng{authorfullhash}{516aa9c0c7fd30850a08652e1c9e46ba}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J Opt Soc Am}
+      \field{number}{3}
+      \field{title}{{ZERNIKE POLYNOMIALS AND ATMOSPHERIC TURBULENCE.}}
+      \field{volume}{66}
+      \field{year}{1976}
+      \field{pages}{207\bibrangedash 211}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1364/JOSA.66.000207
+      \endverb
+    \endentry
+    \entry{ShearingInterferometers}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeltitlesource}{title}
+      \field{title}{{Shearing Interferometers}}
+      \verb{urlraw}
+      \verb https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=2970
+      \endverb
+      \verb{url}
+      \verb https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=2970
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{por2018hcipy}
+\endrefsection
 \endinput
 

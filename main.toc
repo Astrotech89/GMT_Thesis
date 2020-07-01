@@ -4,9 +4,20 @@
 \contentsline {chapter}{Abstract}{vii}{section*.2}%
 \contentsline {chapter}{Acknowledgements}{ix}{section*.3}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.10}%
-\contentsline {chapter}{\numberline {2}Simulation}{3}{chapter.11}%
-\contentsline {chapter}{\numberline {3}Optical Testbed}{5}{chapter.12}%
-\contentsline {chapter}{\numberline {4}Closed Loop Control}{7}{chapter.13}%
-\contentsline {chapter}{\numberline {5}Conclusion}{9}{chapter.14}%
-\contentsline {chapter}{\numberline {A}Response Matrix Images}{11}{appendix.15}%
+\contentsline {section}{\numberline {1.1}Segmented Mirrors / Active Optics}{2}{section.12}%
+\contentsline {section}{\numberline {1.2}FPWFS}{4}{section.16}%
+\contentsline {section}{\numberline {1.3}Vector Apodizing Phase Plate}{4}{section.17}%
+\contentsline {chapter}{\numberline {2}Simulation}{5}{chapter.18}%
+\contentsline {section}{\numberline {2.1}Response Matrix}{5}{section.19}%
+\contentsline {section}{\numberline {2.2}Control Matrix}{8}{section.29}%
+\contentsline {chapter}{\numberline {3}Optical Testbed}{11}{chapter.33}%
+\contentsline {section}{\numberline {3.1}Optical Layout}{11}{section.34}%
+\contentsline {section}{\numberline {3.2}Optical Alignment}{12}{section.36}%
+\contentsline {section}{\numberline {3.3}Images \& Wavefront Decomposition}{14}{section.41}%
+\contentsline {chapter}{\numberline {4}Results}{17}{chapter.45}%
+\contentsline {section}{\numberline {4.1}Simulation Results}{17}{section.46}%
+\contentsline {section}{\numberline {4.2}Testbed Results}{19}{section.49}%
+\contentsline {section}{\numberline {4.3}Future Work}{19}{section.51}%
+\contentsline {chapter}{\numberline {A}Response Matrix Images}{21}{appendix.52}%
+\contentsline {chapter}{\numberline {B}Simulation Results}{23}{appendix.54}%
 \contentsfinish 

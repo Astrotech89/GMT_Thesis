@@ -1,9 +1,33 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Image of the Hale 200-inch (5.1m) primary mirror. The honeycomb structure was to reduce the mass of the optic and make the surface more ridged\relax }}{1}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Jerry Nelson showing his segmented mirror design at Lawrence Berkeley Nation Laboratory.\relax }}{2}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces A system diagram of the Keck Telescope active control for a segment.\relax }}{3}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces A system diagram of the Keck Telescope active control for a segment.\relax }}{4}{figure.caption.15}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Asymmetric pupil planes used for simulation of the GMT FPWFS test\relax }}{5}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Isolated segment manipulation\relax }}{6}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Pupil and Focal plane of tilt applied to segment 4.\relax }}{7}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Focal plane response for tilt on segment 4.\relax }}{8}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces A visual of Singular Value Decomposition\relax }}{8}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Singular Values of the Control Matrix\relax }}{9}{figure.caption.32}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Paraxial view of the GMT testbed\relax }}{11}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Shear plate interferometer examples.\relax }}{12}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Example of how to read a shear plate interferometer \cite {ShearingInterferometers}\relax }}{13}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Focal plane images\relax }}{13}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces An overexposed vAPP image taken on our optical setup. The image was overexposed to show all the features. From here, further images were underexposed.\relax }}{14}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \relax }}{15}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Showing noll indexing compared to a visual of the Zernike mode basis set.\relax }}{16}{figure.caption.44}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Plots of each segments correlation between input aberration amplitudes and the output. There are 21 lines for each mode in the modal basis set.\relax }}{17}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Zoom in of Figure \ref {fig:Tilt_100} to show linear region in tilt response.\relax }}{18}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \relax }}{19}{figure.caption.50}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces All 21 response images. Columns are Piston, Tip, and Tilt and rows are segment number.\relax }}{22}{figure.caption.53}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Piston correlation between -30 to 30 nm.\relax }}{23}{figure.caption.55}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Tip correlation between -30 to 30 nm.\relax }}{23}{figure.caption.56}%
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Tilt correlation between -30 to 30 nm.\relax }}{24}{figure.caption.57}%
 \contentsfinish 

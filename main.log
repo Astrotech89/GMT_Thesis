@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.30)  30 MAY 2020 23:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.30)  30 JUN 2020 22:52
 entering extended mode
 **c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/main.tex
 (c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/main.tex
@@ -302,6 +302,54 @@ Package: titletoc 2019/10/16 v2.13 TOC entries
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\mathpazo.sty"
 Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup4
+) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip61
+
+For additional information on amsmath, use the `?' option.
+("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen183
+) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count284
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count285
+\leftroot@=\count286
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count287
+\DOTSCASE@=\count288
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box62
+\strutbox@=\box63
+\big@size=\dimen184
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count289
+\c@MaxMatrixCols=\count290
+\dotsspace@=\muskip16
+\c@parentequation=\count291
+\dspbrk@lvl=\count292
+\tag@help=\toks24
+\row@=\count293
+\column@=\count294
+\maxfields@=\count295
+\andhelp@=\toks25
+\eqnshift@=\dimen185
+\alignsep@=\dimen186
+\tagshift@=\dimen187
+\tagwidth@=\dimen188
+\totwidth@=\dimen189
+\lineht@=\dimen190
+\@envbody=\toks26
+\multlinegap=\skip62
+\multlinetaggap=\skip63
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.sty"
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexcmds.sty"
@@ -320,70 +368,70 @@ Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count284
+\lrq@indent=\count296
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
-\Urlmuskip=\muskip16
+\Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count285
-\c@listtotal=\count286
-\c@listcount=\count287
-\c@liststart=\count288
-\c@liststop=\count289
-\c@citecount=\count290
-\c@citetotal=\count291
-\c@multicitecount=\count292
-\c@multicitetotal=\count293
-\c@instcount=\count294
-\c@maxnames=\count295
-\c@minnames=\count296
-\c@maxitems=\count297
-\c@minitems=\count298
-\c@citecounter=\count299
-\c@maxcitecounter=\count300
-\c@savedcitecounter=\count301
-\c@uniquelist=\count302
-\c@uniquename=\count303
-\c@refsection=\count304
-\c@refsegment=\count305
-\c@maxextratitle=\count306
-\c@maxextratitleyear=\count307
-\c@maxextraname=\count308
-\c@maxextradate=\count309
-\c@maxextraalpha=\count310
-\c@abbrvpenalty=\count311
-\c@highnamepenalty=\count312
-\c@lownamepenalty=\count313
-\c@maxparens=\count314
-\c@parenlevel=\count315
-\blx@tempcnta=\count316
-\blx@tempcntb=\count317
-\blx@tempcntc=\count318
-\blx@maxsection=\count319
-\blx@maxsegment@0=\count320
-\blx@notetype=\count321
-\blx@parenlevel@text=\count322
-\blx@parenlevel@foot=\count323
-\blx@sectionciteorder@0=\count324
-\blx@entrysetcounter=\count325
-\labelnumberwidth=\skip61
-\labelalphawidth=\skip62
-\biblabelsep=\skip63
-\bibitemsep=\skip64
-\bibnamesep=\skip65
-\bibinitsep=\skip66
-\bibparsep=\skip67
-\bibhang=\skip68
+\c@tabx@nest=\count297
+\c@listtotal=\count298
+\c@listcount=\count299
+\c@liststart=\count300
+\c@liststop=\count301
+\c@citecount=\count302
+\c@citetotal=\count303
+\c@multicitecount=\count304
+\c@multicitetotal=\count305
+\c@instcount=\count306
+\c@maxnames=\count307
+\c@minnames=\count308
+\c@maxitems=\count309
+\c@minitems=\count310
+\c@citecounter=\count311
+\c@maxcitecounter=\count312
+\c@savedcitecounter=\count313
+\c@uniquelist=\count314
+\c@uniquename=\count315
+\c@refsection=\count316
+\c@refsegment=\count317
+\c@maxextratitle=\count318
+\c@maxextratitleyear=\count319
+\c@maxextraname=\count320
+\c@maxextradate=\count321
+\c@maxextraalpha=\count322
+\c@abbrvpenalty=\count323
+\c@highnamepenalty=\count324
+\c@lownamepenalty=\count325
+\c@maxparens=\count326
+\c@parenlevel=\count327
+\blx@tempcnta=\count328
+\blx@tempcntb=\count329
+\blx@tempcntc=\count330
+\blx@maxsection=\count331
+\blx@maxsegment@0=\count332
+\blx@notetype=\count333
+\blx@parenlevel@text=\count334
+\blx@parenlevel@foot=\count335
+\blx@sectionciteorder@0=\count336
+\blx@entrysetcounter=\count337
+\labelnumberwidth=\skip64
+\labelalphawidth=\skip65
+\biblabelsep=\skip66
+\bibitemsep=\skip67
+\bibnamesep=\skip68
+\bibinitsep=\skip69
+\bibparsep=\skip70
+\bibhang=\skip71
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count326
-\c@maxcomprange=\count327
-\c@mincompwidth=\count328
+\c@mincomprange=\count338
+\c@maxcomprange=\count339
+\c@mincompwidth=\count340
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-dm.def"
@@ -393,88 +441,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count329
-\c@savedafterword=\count330
-\c@annotator=\count331
-\c@savedannotator=\count332
-\c@author=\count333
-\c@savedauthor=\count334
-\c@bookauthor=\count335
-\c@savedbookauthor=\count336
-\c@commentator=\count337
-\c@savedcommentator=\count338
-\c@editor=\count339
-\c@savededitor=\count340
-\c@editora=\count341
-\c@savededitora=\count342
-\c@editorb=\count343
-\c@savededitorb=\count344
-\c@editorc=\count345
-\c@savededitorc=\count346
-\c@foreword=\count347
-\c@savedforeword=\count348
-\c@holder=\count349
-\c@savedholder=\count350
-\c@introduction=\count351
-\c@savedintroduction=\count352
-\c@namea=\count353
-\c@savednamea=\count354
-\c@nameb=\count355
-\c@savednameb=\count356
-\c@namec=\count357
-\c@savednamec=\count358
-\c@translator=\count359
-\c@savedtranslator=\count360
-\c@shortauthor=\count361
-\c@savedshortauthor=\count362
-\c@shorteditor=\count363
-\c@savedshorteditor=\count364
-\c@labelname=\count365
-\c@savedlabelname=\count366
-\c@institution=\count367
-\c@savedinstitution=\count368
-\c@lista=\count369
-\c@savedlista=\count370
-\c@listb=\count371
-\c@savedlistb=\count372
-\c@listc=\count373
-\c@savedlistc=\count374
-\c@listd=\count375
-\c@savedlistd=\count376
-\c@liste=\count377
-\c@savedliste=\count378
-\c@listf=\count379
-\c@savedlistf=\count380
-\c@location=\count381
-\c@savedlocation=\count382
-\c@organization=\count383
-\c@savedorganization=\count384
-\c@origlocation=\count385
-\c@savedoriglocation=\count386
-\c@origpublisher=\count387
-\c@savedorigpublisher=\count388
-\c@publisher=\count389
-\c@savedpublisher=\count390
-\c@language=\count391
-\c@savedlanguage=\count392
-\c@origlanguage=\count393
-\c@savedoriglanguage=\count394
-\c@pageref=\count395
-\c@savedpageref=\count396
-\shorthandwidth=\skip69
-\shortjournalwidth=\skip70
-\shortserieswidth=\skip71
-\shorttitlewidth=\skip72
-\shortauthorwidth=\skip73
-\shorteditorwidth=\skip74
-\locallabelnumberwidth=\skip75
-\locallabelalphawidth=\skip76
-\localshorthandwidth=\skip77
-\localshortjournalwidth=\skip78
-\localshortserieswidth=\skip79
-\localshorttitlewidth=\skip80
-\localshortauthorwidth=\skip81
-\localshorteditorwidth=\skip82
+\c@afterword=\count341
+\c@savedafterword=\count342
+\c@annotator=\count343
+\c@savedannotator=\count344
+\c@author=\count345
+\c@savedauthor=\count346
+\c@bookauthor=\count347
+\c@savedbookauthor=\count348
+\c@commentator=\count349
+\c@savedcommentator=\count350
+\c@editor=\count351
+\c@savededitor=\count352
+\c@editora=\count353
+\c@savededitora=\count354
+\c@editorb=\count355
+\c@savededitorb=\count356
+\c@editorc=\count357
+\c@savededitorc=\count358
+\c@foreword=\count359
+\c@savedforeword=\count360
+\c@holder=\count361
+\c@savedholder=\count362
+\c@introduction=\count363
+\c@savedintroduction=\count364
+\c@namea=\count365
+\c@savednamea=\count366
+\c@nameb=\count367
+\c@savednameb=\count368
+\c@namec=\count369
+\c@savednamec=\count370
+\c@translator=\count371
+\c@savedtranslator=\count372
+\c@shortauthor=\count373
+\c@savedshortauthor=\count374
+\c@shorteditor=\count375
+\c@savedshorteditor=\count376
+\c@labelname=\count377
+\c@savedlabelname=\count378
+\c@institution=\count379
+\c@savedinstitution=\count380
+\c@lista=\count381
+\c@savedlista=\count382
+\c@listb=\count383
+\c@savedlistb=\count384
+\c@listc=\count385
+\c@savedlistc=\count386
+\c@listd=\count387
+\c@savedlistd=\count388
+\c@liste=\count389
+\c@savedliste=\count390
+\c@listf=\count391
+\c@savedlistf=\count392
+\c@location=\count393
+\c@savedlocation=\count394
+\c@organization=\count395
+\c@savedorganization=\count396
+\c@origlocation=\count397
+\c@savedoriglocation=\count398
+\c@origpublisher=\count399
+\c@savedorigpublisher=\count400
+\c@publisher=\count401
+\c@savedpublisher=\count402
+\c@language=\count403
+\c@savedlanguage=\count404
+\c@origlanguage=\count405
+\c@savedoriglanguage=\count406
+\c@pageref=\count407
+\c@savedpageref=\count408
+\shorthandwidth=\skip72
+\shortjournalwidth=\skip73
+\shortserieswidth=\skip74
+\shorttitlewidth=\skip75
+\shortauthorwidth=\skip76
+\shorteditorwidth=\skip77
+\locallabelnumberwidth=\skip78
+\locallabelalphawidth=\skip79
+\localshorthandwidth=\skip80
+\localshortjournalwidth=\skip81
+\localshortserieswidth=\skip82
+\localshorttitlewidth=\skip83
+\localshortauthorwidth=\skip84
+\localshorteditorwidth=\skip85
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-compat.def"
@@ -484,19 +532,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.def"
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count397
-\c@textcitetotal=\count398
-\c@textcitemaxnames=\count399
-\c@biburlbigbreakpenalty=\count400
-\c@biburlbreakpenalty=\count401
-\c@biburlnumpenalty=\count402
-\c@biburlucpenalty=\count403
-\c@biburllcpenalty=\count404
-\biburlbigskip=\muskip17
-\biburlnumskip=\muskip18
-\biburlucskip=\muskip19
-\biburllcskip=\muskip20
-\c@smartand=\count405
+\c@textcitecount=\count409
+\c@textcitetotal=\count410
+\c@textcitemaxnames=\count411
+\c@biburlbigbreakpenalty=\count412
+\c@biburlbreakpenalty=\count413
+\c@biburlnumpenalty=\count414
+\c@biburlucpenalty=\count415
+\c@biburllcpenalty=\count416
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count417
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -512,8 +560,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\standard.bbx"
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count406
-\c@bbx:relatedtotal=\count407
+\c@bbx:relatedcount=\count418
+\c@bbx:relatedtotal=\count419
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -537,13 +585,13 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 File: biblatex.cfg 
 )) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.sty"
 Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
-\csq@reset=\count408
-\csq@gtype=\count409
-\csq@glevel=\count410
-\csq@qlevel=\count411
-\csq@maxlvl=\count412
-\csq@tshold=\count413
-\csq@ltx@everypar=\toks24
+\csq@reset=\count420
+\csq@gtype=\count421
+\csq@glevel=\count422
+\csq@qlevel=\count423
+\csq@maxlvl=\count424
+\csq@tshold=\count425
+\csq@ltx@everypar=\toks28
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.def"
 File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
 )
@@ -554,27 +602,27 @@ File: csquotes.cfg
 )
 Package csquotes Info: Enabling multilingual quotes.
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.sty"
-\lst@mode=\count414
-\lst@gtempboxa=\box62
-\lst@token=\toks25
-\lst@length=\count415
-\lst@currlwidth=\dimen183
-\lst@column=\count416
-\lst@pos=\count417
-\lst@lostspace=\dimen184
-\lst@width=\dimen185
-\lst@newlines=\count418
-\lst@lineno=\count419
-\lst@maxwidth=\dimen186
+\lst@mode=\count426
+\lst@gtempboxa=\box64
+\lst@token=\toks29
+\lst@length=\count427
+\lst@currlwidth=\dimen191
+\lst@column=\count428
+\lst@pos=\count429
+\lst@lostspace=\dimen192
+\lst@width=\dimen193
+\lst@newlines=\count430
+\lst@lineno=\count431
+\lst@maxwidth=\dimen194
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.sty"
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count420
-\lst@skipnumbers=\count421
-\lst@framebox=\box63
+\c@lstnumber=\count432
+\lst@skipnumbers=\count433
+\lst@framebox=\box65
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.cfg"
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
-Package scrhack Info: loading listings hack on input line 61.
+Package scrhack Info: loading listings hack on input line 64.
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\listings.hak"
 File: listings.hak 2020/04/19 v3.30 KOMA-Script scrhack part (hacking package listings)
 Package tocbasic Info: setting babel extension for `lol' on input line 143.
@@ -583,17 +631,17 @@ Package scrhack Info: redefining \lstlistoflistings on input line 143.
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\rotating.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count422
-\rotFPtop=\skip83
-\rotFPbot=\skip84
-\rot@float@box=\box64
-\rot@mess@toks=\toks26
+\c@r@tfl@t=\count434
+\rotFPtop=\skip86
+\rotFPbot=\skip87
+\rot@float@box=\box66
+\rot@mess@toks=\toks30
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\tikz.sty" ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.sty" ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrcs.sty" ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common.tex"
-\pgfutil@everybye=\toks27
-\pgfutil@tempdima=\dimen187
-\pgfutil@tempdimb=\dimen188
+\pgfutil@everybye=\toks31
+\pgfutil@tempdima=\dimen195
+\pgfutil@tempdimb=\dimen196
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common-lists.tex")) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-latex.def"
-\pgfutil@abb=\box65
+\pgfutil@abb=\box67
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfrcs.code.tex" ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision.tex")
@@ -603,31 +651,31 @@ Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgfcore.sty" ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pgfsys.sty" ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsys.code.tex"
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks28
-\pgfkeys@temptoks=\toks29
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex"
-\pgfkeys@tmptoks=\toks30
+\pgfkeys@tmptoks=\toks34
 ))
-\pgf@x=\dimen189
-\pgf@y=\dimen190
-\pgf@xa=\dimen191
-\pgf@ya=\dimen192
-\pgf@xb=\dimen193
-\pgf@yb=\dimen194
-\pgf@xc=\dimen195
-\pgf@yc=\dimen196
-\pgf@xd=\dimen197
-\pgf@yd=\dimen198
+\pgf@x=\dimen197
+\pgf@y=\dimen198
+\pgf@xa=\dimen199
+\pgf@ya=\dimen256
+\pgf@xb=\dimen257
+\pgf@yb=\dimen258
+\pgf@xc=\dimen259
+\pgf@yc=\dimen260
+\pgf@xd=\dimen261
+\pgf@yd=\dimen262
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
-\c@pgf@counta=\count423
-\c@pgf@countb=\count424
-\c@pgf@countc=\count425
-\c@pgf@countd=\count426
-\t@pgf@toka=\toks31
-\t@pgf@tokb=\toks32
-\t@pgf@tokc=\toks33
-\pgf@sys@id@count=\count427
+\c@pgf@counta=\count435
+\c@pgf@countb=\count436
+\c@pgf@countc=\count437
+\c@pgf@countd=\count438
+\t@pgf@toka=\toks35
+\t@pgf@tokb=\toks36
+\t@pgf@tokc=\toks37
+\pgf@sys@id@count=\count439
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgf.cfg"
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
@@ -638,59 +686,59 @@ File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
 File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 ))) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count428
-\pgfsyssoftpath@bigbuffer@items=\count429
+\pgfsyssoftpath@smallbuffer@items=\count440
+\pgfsyssoftpath@bigbuffer@items=\count441
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcore.code.tex"
 Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex" ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathcalc.code.tex" ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathutil.code.tex") ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen199
-\pgfmath@count=\count430
-\pgfmath@box=\box66
-\pgfmath@toks=\toks34
-\pgfmath@stack@operand=\toks35
-\pgfmath@stack@operation=\toks36
+\pgfmath@dimen=\dimen263
+\pgfmath@count=\count442
+\pgfmath@box=\box68
+\pgfmath@toks=\toks38
+\pgfmath@stack@operand=\toks39
+\pgfmath@stack@operation=\toks40
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.code.tex" ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex") ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex") ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.random.code.tex") ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex") ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.base.code.tex") ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.round.code.tex") ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex") ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex"))) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count431
+\c@pgfmathroundto@lastzeros=\count443
 )) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfint.code.tex") ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@picminx=\dimen256
-\pgf@picmaxx=\dimen257
-\pgf@picminy=\dimen258
-\pgf@picmaxy=\dimen259
-\pgf@pathminx=\dimen260
-\pgf@pathmaxx=\dimen261
-\pgf@pathminy=\dimen262
-\pgf@pathmaxy=\dimen263
-\pgf@xx=\dimen264
-\pgf@xy=\dimen265
-\pgf@yx=\dimen266
-\pgf@yy=\dimen267
-\pgf@zx=\dimen268
-\pgf@zy=\dimen269
+\pgf@picminx=\dimen264
+\pgf@picmaxx=\dimen265
+\pgf@picminy=\dimen266
+\pgf@picmaxy=\dimen267
+\pgf@pathminx=\dimen268
+\pgf@pathmaxx=\dimen269
+\pgf@pathminy=\dimen270
+\pgf@pathmaxy=\dimen271
+\pgf@xx=\dimen272
+\pgf@xy=\dimen273
+\pgf@yx=\dimen274
+\pgf@yy=\dimen275
+\pgf@zx=\dimen276
+\pgf@zy=\dimen277
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@path@lastx=\dimen270
-\pgf@path@lasty=\dimen271
+\pgf@path@lastx=\dimen278
+\pgf@path@lasty=\dimen279
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@shorten@end@additional=\dimen272
-\pgf@shorten@start@additional=\dimen273
+\pgf@shorten@end@additional=\dimen280
+\pgf@shorten@start@additional=\dimen281
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfpic=\box67
-\pgf@hbox=\box68
-\pgf@layerbox@main=\box69
-\pgf@picture@serial@count=\count432
+\pgfpic=\box69
+\pgf@hbox=\box70
+\pgf@layerbox@main=\box71
+\pgf@picture@serial@count=\count444
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgflinewidth=\dimen274
+\pgflinewidth=\dimen282
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@pt@x=\dimen275
-\pgf@pt@y=\dimen276
-\pgf@pt@temp=\dimen277
+\pgf@pt@x=\dimen283
+\pgf@pt@y=\dimen284
+\pgf@pt@temp=\dimen285
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex"
@@ -699,17 +747,17 @@ File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowsep=\dimen278
+\pgfarrowsep=\dimen286
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@max=\dimen279
-\pgf@sys@shading@range@num=\count433
-\pgf@shadingcount=\count434
+\pgf@max=\dimen287
+\pgf@sys@shading@range@num=\count445
+\pgf@shadingcount=\count446
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfexternal@startupbox=\box70
+\pgfexternal@startupbox=\box72
 )) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex"
 File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex"
@@ -720,52 +768,52 @@ File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodeparttextbox=\box71
+\pgfnodeparttextbox=\box73
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen280
-\pgf@nodesepend=\dimen281
+\pgf@nodesepstart=\dimen288
+\pgf@nodesepend=\dimen289
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty"
 Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 )) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgffor.sty" ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfkeys.sty" ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex")) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.sty" ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex")) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgffor.code.tex"
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex")
-\pgffor@iter=\dimen282
-\pgffor@skip=\dimen283
-\pgffor@stack=\toks37
-\pgffor@toks=\toks38
+\pgffor@iter=\dimen290
+\pgffor@skip=\dimen291
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
 )) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex"
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count435
-\pgfplotmarksize=\dimen284
+\pgf@plot@mark@count=\count447
+\pgfplotmarksize=\dimen292
 )
-\tikz@lastx=\dimen285
-\tikz@lasty=\dimen286
-\tikz@lastxsaved=\dimen287
-\tikz@lastysaved=\dimen288
-\tikz@lastmovetox=\dimen289
-\tikz@lastmovetoy=\dimen290
-\tikzleveldistance=\dimen291
-\tikzsiblingdistance=\dimen292
-\tikz@figbox=\box72
-\tikz@figbox@bg=\box73
-\tikz@tempbox=\box74
-\tikz@tempbox@bg=\box75
-\tikztreelevel=\count436
-\tikznumberofchildren=\count437
-\tikznumberofcurrentchild=\count438
-\tikz@fig@count=\count439
+\tikz@lastx=\dimen293
+\tikz@lasty=\dimen294
+\tikz@lastxsaved=\dimen295
+\tikz@lastysaved=\dimen296
+\tikz@lastmovetox=\dimen297
+\tikz@lastmovetoy=\dimen298
+\tikzleveldistance=\dimen299
+\tikzsiblingdistance=\dimen300
+\tikz@figbox=\box74
+\tikz@figbox@bg=\box75
+\tikz@tempbox=\box76
+\tikz@tempbox@bg=\box77
+\tikztreelevel=\count448
+\tikznumberofchildren=\count449
+\tikznumberofcurrentchild=\count450
+\tikz@fig@count=\count451
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count440
-\pgfmatrixcurrentcolumn=\count441
-\pgf@matrix@numberofcolumns=\count442
+\pgfmatrixcurrentrow=\count452
+\pgfmatrixcurrentcolumn=\count453
+\pgf@matrix@numberofcolumns=\count454
 )
-\tikz@expandcount=\count443
+\tikz@expandcount=\count455
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.sty"
@@ -776,17 +824,16 @@ Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdfescape\pdfescape.sty"
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolor\hycolor.sty"
+) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolor\hycolor.sty"
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letltxmacro\letltxmacro.sty"
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxhook\auxhook.sty"
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen293
-\Hy@linkcounter=\count444
-\Hy@pagecounter=\count445
+\@linkdim=\dimen301
+\Hy@linkcounter=\count456
+\Hy@pagecounter=\count457
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -796,7 +843,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/etexcmds\etexcmds.sty"
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count446
+\Hy@SavedSpaceFactor=\count458
 Package hyperref Info: Hyper figures OFF on input line 4464.
 Package hyperref Info: Link nesting OFF on input line 4469.
 Package hyperref Info: Hyper index ON on input line 4472.
@@ -804,17 +851,18 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count447
+\c@Hy@tempcnt=\count459
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen294
- ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\bitset.sty"
+\XeTeXLinkMargin=\dimen302
+
+("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\bitset.sty"
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bigintcalc\bigintcalc.sty"
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count448
-\Field@Width=\dimen295
-\Fld@charsize=\dimen296
+\Fld@menulength=\count460
+\Field@Width=\dimen303
+\Fld@charsize=\dimen304
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -827,21 +875,21 @@ LaTeX Info: Redefining \pageref on input line 6421.
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbegshi\atbegshi.sty"
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count449
-\c@Item=\count450
-\c@Hfootnote=\count451
+\Hy@abspage=\count461
+\c@Item=\count462
+\c@Hfootnote=\count463
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
-(scrhack)             need that hack, on input line 125.
+(scrhack)             need that hack, on input line 128.
 Package hyperref Info: Driver (autodetected): hpdftex.
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.def"
 File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atveryend\atveryend.sty"
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
-\Fld@listcount=\count452
-\c@bookmark@seq@number=\count453
+\Fld@listcount=\count464
+\c@bookmark@seq@number=\count465
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfilecheck\rerunfilecheck.sty"
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/uniquecounter\uniquecounter.sty"
@@ -849,42 +897,46 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip85
+\Hy@SectionHShift=\skip88
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 125.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 125.
-Package hyperref Info: Option `colorlinks' set `true' on input line 125.
-Package hyperref Info: Option `unicode' set `true' on input line 125.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 128.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 128.
+Package hyperref Info: Option `colorlinks' set `true' on input line 128.
+Package hyperref Info: Option `unicode' set `true' on input line 128.
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\puenc.def"
 File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 125.
+Package hyperref Info: Option `breaklinks' set `true' on input line 128.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.aux (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter1.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter2.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter3.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter4.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter5.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices/AppendixA.aux))
+ (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.aux (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter1.aux
+
+LaTeX Warning: Label `fig:active_control' multiply defined.
+
+) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter2.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter3.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter4.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices/AppendixA.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices/AppendixB.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 125.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 128.
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\translator-basic-dictionary-English.dict"
@@ -893,17 +945,17 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count454
-\scratchdimen=\dimen297
-\scratchbox=\box76
-\nofMPsegments=\count455
-\nofMParguments=\count456
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count457
-\MPscratchDim=\dimen298
-\MPnumerator=\count458
-\makeMPintoPDFobject=\count459
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count466
+\scratchdimen=\dimen305
+\scratchbox=\box78
+\nofMPsegments=\count467
+\nofMParguments=\count468
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count469
+\MPscratchDim=\dimen306
+\MPnumerator=\count470
+\makeMPintoPDFobject=\count471
+\everyMPtoPDFconversion=\toks44
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -951,14 +1003,13 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 125.
-Package scrbase Info: activating english \abbrevname on input line 125.
-Package scrbase Info: activating english \byname on input line 125.
-Package scrbase Info: activating english \acknowledgementname on input line 125.
-Package scrbase Info: activating english \authorshipname on input line 125.
-Package scrbase Info: activating english \constantsname on input line 125.
-Package scrbase Info: activating english \symbolsname on input line 125.
-\big@size=\dimen299
+(scrlayer)             \begin{document} on input line 128.
+Package scrbase Info: activating english \abbrevname on input line 128.
+Package scrbase Info: activating english \byname on input line 128.
+Package scrbase Info: activating english \acknowledgementname on input line 128.
+Package scrbase Info: activating english \authorshipname on input line 128.
+Package scrbase Info: activating english \constantsname on input line 128.
+Package scrbase Info: activating english \symbolsname on input line 128.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\english.lbx"
@@ -971,14 +1022,22 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.bbl)
-Package biblatex Info: Reference section=0 on input line 125.
-Package biblatex Info: Reference segment=0 on input line 125.
-\c@lstlisting=\count460
-Package scrhack Info: undefining \float@addtolists on input line 125.
+ (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                por2018hcipy
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 128.
+Package biblatex Info: Reference segment=0 on input line 128.
+\c@lstlisting=\count472
+Package scrhack Info: undefining \float@addtolists on input line 128.
  ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box77
-Package hyperref Info: Link coloring ON on input line 125.
+\AtBeginShipoutBox=\box79
+Package hyperref Info: Link coloring ON on input line 128.
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcount\refcount.sty"
@@ -986,32 +1045,32 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gettitlestring\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count461
+\c@section@level=\count473
 )
-LaTeX Info: Redefining \ref on input line 125.
-LaTeX Info: Redefining \pageref on input line 125.
-LaTeX Info: Redefining \nameref on input line 125.
+LaTeX Info: Redefining \ref on input line 128.
+LaTeX Info: Redefining \pageref on input line 128.
+LaTeX Info: Redefining \nameref on input line 128.
  (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.out) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 125.
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 128.
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ppl.fd"
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 125.
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 128.
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omlzplm.fd"
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 125.
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 128.
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omszplm.fd"
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 125.
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 128.
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omxzplm.fd"
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 125.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 128.
  ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1zplm.fd"
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
@@ -1026,7 +1085,7 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 --------------------
  Declaration of Authorship
 --------------------
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 184.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 187.
 ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1ppl.fd"
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
@@ -1057,7 +1116,12 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 1: section
 [11] [12
 
-] (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.lof)
+] (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.lof
+Overfull \hbox (2.39835pt too wide) in paragraph at lines 5--5
+ [][] [][][]\T1/ppl/m/n/10.95 Jerry Nel-son show-ing his seg-mented mir-ror de-sign at Lawrence Berke- 
+ []
+
+)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -1090,94 +1154,298 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 
 (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter1.tex
 Chapter 1.
-\c@ttl@toc@chapters=\count462
-(c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.ptc))
+\c@ttl@toc@chapters=\count474
+(c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.ptc)
+<Figures/../Figures/twomen.jpg, id=267, 1606.0pt x 1260.71pt>
+File: Figures/../Figures/twomen.jpg Graphic file (type jpg)
+<use Figures/../Figures/twomen.jpg>
+Package pdftex.def Info: Figures/../Figures/twomen.jpg  used on input line 24.
+(pdftex.def)             Requested size: 341.43306pt x 268.02718pt.
+
 1: section
 [1
 
 
-]
+ <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/../Figures/twomen.jpg>]
+<Figures/../Figures/Jerry Nelson.jpg, id=276, 1486.55376pt x 1121.18875pt>
+File: Figures/../Figures/Jerry Nelson.jpg Graphic file (type jpg)
+<use Figures/../Figures/Jerry Nelson.jpg>
+Package pdftex.def Info: Figures/../Figures/Jerry Nelson.jpg  used on input line 49.
+(pdftex.def)             Requested size: 341.43306pt x 257.50871pt.
+<Figures/../Figures/KCompDiag.jpg, id=279, 359.3425pt x 369.38pt>
+File: Figures/../Figures/KCompDiag.jpg Graphic file (type jpg)
+<use Figures/../Figures/KCompDiag.jpg>
+Package pdftex.def Info: Figures/../Figures/KCompDiag.jpg  used on input line 59.
+(pdftex.def)             Requested size: 341.43306pt x 350.99355pt.
+ [2 <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/../Figures/Jerry Nelson.jpg>]
+<Figures/GMT_phase_measure.png, id=288, 610.53094pt x 413.29407pt>
+File: Figures/GMT_phase_measure.png Graphic file (type png)
+<use Figures/GMT_phase_measure.png>
+Package pdftex.def Info: Figures/GMT_phase_measure.png  used on input line 69.
+(pdftex.def)             Requested size: 341.43306pt x 231.14038pt.
+ [3 <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/../Figures/KCompDiag.jpg>]) [4 <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/GMT_phase_measure.png>]
 \openout2 = `Chapters/Chapter2.aux'.
 
- (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter2.tex [2
-
-
-
-]
+ (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter2.tex
 Chapter 2.
-(c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.ptc))
+(c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.ptc)
+<Figures/GMT_seg_choice.jpg, id=302, 463.7325pt x 447.6725pt>
+File: Figures/GMT_seg_choice.jpg Graphic file (type jpg)
+<use Figures/GMT_seg_choice.jpg>
+Package pdftex.def Info: Figures/GMT_seg_choice.jpg  used on input line 34.
+(pdftex.def)             Requested size: 170.71652pt x 164.80286pt.
+<Figures/gmt_phase_mask.jpg, id=303, 460.72125pt x 444.66125pt>
+File: Figures/gmt_phase_mask.jpg Graphic file (type jpg)
+<use Figures/gmt_phase_mask.jpg>
+Package pdftex.def Info: Figures/gmt_phase_mask.jpg  used on input line 40.
+(pdftex.def)             Requested size: 170.71652pt x 164.75955pt.
+
 1: section
-[3]
+[5
+
+
+
+ <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/GMT_seg_choice.jpg> <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/gmt_phase_mask.jpg>]
+<Figures/isolated_seg.png, id=312, 265.2309pt x 265.2309pt>
+File: Figures/isolated_seg.png Graphic file (type png)
+<use Figures/isolated_seg.png>
+Package pdftex.def Info: Figures/isolated_seg.png  used on input line 60.
+(pdftex.def)             Requested size: 184.9429pt x 184.94806pt.
+<Figures/tip_single_seg.jpg, id=314, 477.785pt x 450.68375pt>
+File: Figures/tip_single_seg.jpg Graphic file (type jpg)
+<use Figures/tip_single_seg.jpg>
+Package pdftex.def Info: Figures/tip_single_seg.jpg  used on input line 66.
+(pdftex.def)             Requested size: 184.9429pt x 174.45247pt.
+ [6 <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/isolated_seg.png> <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/tip_single_seg.jpg>]
+<Figures/tilt_comb.jpg, id=335, 459.7175pt x 449.68pt>
+File: Figures/tilt_comb.jpg Graphic file (type jpg)
+<use Figures/tilt_comb.jpg>
+Package pdftex.def Info: Figures/tilt_comb.jpg  used on input line 119.
+(pdftex.def)             Requested size: 184.9429pt x 180.9049pt.
+<Figures/PSF_tilt.png, id=336, 349.305pt x 346.29375pt>
+File: Figures/PSF_tilt.png Graphic file (type png)
+<use Figures/PSF_tilt.png>
+Package pdftex.def Info: Figures/PSF_tilt.png  used on input line 125.
+(pdftex.def)             Requested size: 184.9429pt x 183.34987pt.
+<Figures/I_diff.png, id=340, 193.6836pt x 182.1204pt>
+File: Figures/I_diff.png Graphic file (type png)
+<use Figures/I_diff.png>
+Package pdftex.def Info: Figures/I_diff.png  used on input line 144.
+(pdftex.def)             Requested size: 170.71652pt x 160.53322pt.
+ [7 <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/tilt_comb.jpg> <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/PSF_tilt.png>]
+<Figures/Singular_value_decomposition_visualisation.jpg, id=349, 192.72pt x 224.7597pt>
+File: Figures/Singular_value_decomposition_visualisation.jpg Graphic file (type jpg)
+<use Figures/Singular_value_decomposition_visualisation.jpg>
+Package pdftex.def Info: Figures/Singular_value_decomposition_visualisation.jpg  used on input line 166.
+(pdftex.def)             Requested size: 170.71652pt x 199.0958pt.
+<Figures/singular_values.png, id=353, 1387.584pt x 695.9601pt>
+File: Figures/singular_values.png Graphic file (type png)
+<use Figures/singular_values.png>
+Package pdftex.def Info: Figures/singular_values.png  used on input line 182.
+(pdftex.def)             Requested size: 398.33858pt x 199.78432pt.
+ [8 <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/I_diff.png> <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/Singular_value_decomposition_visualisation.jpg>]) [9 <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/singular_values.png>]
 \openout2 = `Chapters/Chapter3.aux'.
 
- (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter3.tex [4
+ (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter3.tex [10
 
 
 
 ]
 Chapter 3.
-(c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.ptc))
+(c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.ptc)
+<Figures/optical_bed.png, id=375, 913.91437pt x 491.58656pt>
+File: Figures/optical_bed.png Graphic file (type png)
+<use Figures/optical_bed.png>
+Package pdftex.def Info: Figures/optical_bed.png  used on input line 26.
+(pdftex.def)             Requested size: 341.43306pt x 183.6544pt.
+
 1: section
-[5]
+[11 <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/optical_bed.png>]
+<Figures/ShearPlateDrawing.jpg, id=383, 187.902pt x 188.6247pt>
+File: Figures/ShearPlateDrawing.jpg Graphic file (type jpg)
+<use Figures/ShearPlateDrawing.jpg>
+Package pdftex.def Info: Figures/ShearPlateDrawing.jpg  used on input line 43.
+(pdftex.def)             Requested size: 184.9429pt x 185.66257pt.
+<Figures/fringes.jpg, id=386, 2112.89375pt x 1751.54375pt>
+File: Figures/fringes.jpg Graphic file (type jpg)
+<use Figures/fringes.jpg>
+Package pdftex.def Info: Figures/fringes.jpg  used on input line 49.
+(pdftex.def)             Requested size: 199.16928pt x 165.08879pt.
+<Figures/shear_coll.png, id=390, 365.11406pt x 130.23656pt>
+File: Figures/shear_coll.png Graphic file (type png)
+<use Figures/shear_coll.png>
+Package pdftex.def Info: Figures/shear_coll.png  used on input line 62.
+(pdftex.def)             Requested size: 284.52756pt x 101.49467pt.
+ [12 <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/ShearPlateDrawing.jpg> <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/fringes.jpg>]
+<Figures/new_int_focal_plane.jpg, id=397, 426.84468pt x 445.665pt>
+File: Figures/new_int_focal_plane.jpg Graphic file (type jpg)
+<use Figures/new_int_focal_plane.jpg>
+Package pdftex.def Info: Figures/new_int_focal_plane.jpg  used on input line 75.
+(pdftex.def)             Requested size: 184.9429pt x 193.10107pt.
+<Figures/final_focal.jpg, id=398, 342.5297pt x 352.31625pt>
+File: Figures/final_focal.jpg Graphic file (type jpg)
+<use Figures/final_focal.jpg>
+Package pdftex.def Info: Figures/final_focal.jpg  used on input line 81.
+(pdftex.def)             Requested size: 199.16928pt x 204.86502pt.
+ [13 <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/shear_coll.png> <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/new_int_focal_plane.jpg> <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/final_focal.jpg>]
+<Figures/GMT_gvAPP_04_03_2020.jpg, id=406, 481.8pt x 361.35pt>
+File: Figures/GMT_gvAPP_04_03_2020.jpg Graphic file (type jpg)
+<use Figures/GMT_gvAPP_04_03_2020.jpg>
+Package pdftex.def Info: Figures/GMT_gvAPP_04_03_2020.jpg  used on input line 97.
+(pdftex.def)             Requested size: 398.33858pt x 298.76254pt.
+ [14 <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/GMT_gvAPP_04_03_2020.jpg>]
+<Figures/vapp_square.png, id=413, 432.86719pt x 432.11438pt>
+File: Figures/vapp_square.png Graphic file (type png)
+<use Figures/vapp_square.png>
+Package pdftex.def Info: Figures/vapp_square.png  used on input line 113.
+(pdftex.def)             Requested size: 184.9429pt x 184.61871pt.
+<Figures/residual.png, id=416, 434.37282pt x 433.62pt>
+File: Figures/residual.png Graphic file (type png)
+<use Figures/residual.png>
+Package pdftex.def Info: Figures/residual.png  used on input line 119.
+(pdftex.def)             Requested size: 184.9429pt x 184.6268pt.
+<Figures/noll_indexing.png, id=423, 299.61937pt x 85.06781pt>
+File: Figures/noll_indexing.png Graphic file (type png)
+<use Figures/noll_indexing.png>
+Package pdftex.def Info: Figures/noll_indexing.png  used on input line 141.
+(pdftex.def)             Requested size: 184.9429pt x 52.51044pt.
+<Figures/1024px-Zernike_polynomials2.png, id=426, 1027.84pt x 1027.84pt>
+File: Figures/1024px-Zernike_polynomials2.png Graphic file (type png)
+<use Figures/1024px-Zernike_polynomials2.png>
+Package pdftex.def Info: Figures/1024px-Zernike_polynomials2.png  used on input line 147.
+(pdftex.def)             Requested size: 184.9429pt x 184.94048pt.
+ [15 <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/vapp_square.png> <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/residual.png>]) [16 <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/noll_indexing.png> <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/1024px-Zernike_polynomials2.png>]
 \openout2 = `Chapters/Chapter4.aux'.
 
- (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter4.tex [6
-
-
-
-]
+ (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter4.tex
 Chapter 4.
-(c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.ptc))
+(c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.ptc)
+<Figures/Tilt_response100.png, id=448, 1387.584pt x 695.9601pt>
+File: Figures/Tilt_response100.png Graphic file (type png)
+<use Figures/Tilt_response100.png>
+Package pdftex.def Info: Figures/Tilt_response100.png  used on input line 25.
+(pdftex.def)             Requested size: 398.33858pt x 199.78432pt.
+
 1: section
-[7]
-\openout2 = `Chapters/Chapter5.aux'.
-
- (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter5.tex [8
+[17
 
 
 
-]
-Chapter 5.
-)
-1: section
-[9]
+ <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/Tilt_response100.png>]
+<Figures/Tilt_response30.png, id=457, 1387.584pt x 695.9601pt>
+File: Figures/Tilt_response30.png Graphic file (type png)
+<use Figures/Tilt_response30.png>
+Package pdftex.def Info: Figures/Tilt_response30.png  used on input line 34.
+(pdftex.def)             Requested size: 398.33858pt x 199.78432pt.
+ [18 <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/Tilt_response30.png>]
+<Figures/wavefront_error.png, id=469, 451.6875pt x 450.9347pt>
+File: Figures/wavefront_error.png Graphic file (type png)
+<use Figures/wavefront_error.png>
+Package pdftex.def Info: Figures/wavefront_error.png  used on input line 51.
+(pdftex.def)             Requested size: 184.9429pt x 184.63672pt.
+<Figures/ampvnoll.png, id=470, 722.7pt x 578.16pt>
+File: Figures/ampvnoll.png Graphic file (type png)
+<use Figures/ampvnoll.png>
+Package pdftex.def Info: Figures/ampvnoll.png  used on input line 57.
+(pdftex.def)             Requested size: 227.62204pt x 182.0949pt.
+
+Overfull \hbox (25.6075pt too wide) in paragraph at lines 57--58
+ [][] 
+ []
+
+) [19 <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/wavefront_error.png> <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/ampvnoll.png>]
 \openout2 = `Appendices/AppendixA.aux'.
 
- (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices/AppendixA.tex [10
+ (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices/AppendixA.tex [20
 
 
 
 ]
 Appendix A.
+<Figures/RM.png, id=481, 347.6187pt x 675.7245pt>
+File: Figures/RM.png Graphic file (type png)
+<use Figures/RM.png>
+Package pdftex.def Info: Figures/RM.png  used on input line 11.
+(pdftex.def)             Requested size: 347.61784pt x 675.72285pt.
+
+LaTeX Warning: Float too large for page by 16.22464pt on input line 14.
+
 )
 1: section
-[11]
+[21] [22 <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/RM.png>]
+\openout2 = `Appendices/AppendixB.aux'.
+
+ (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices/AppendixB.tex
+Appendix B.
+<Figures/Pist_response30.png, id=491, 1387.584pt x 695.9601pt>
+File: Figures/Pist_response30.png Graphic file (type png)
+<use Figures/Pist_response30.png>
+Package pdftex.def Info: Figures/Pist_response30.png  used on input line 9.
+(pdftex.def)             Requested size: 398.33858pt x 199.78432pt.
+<Figures/Tip_response30.png, id=492, 1387.584pt x 695.9601pt>
+File: Figures/Tip_response30.png Graphic file (type png)
+<use Figures/Tip_response30.png>
+Package pdftex.def Info: Figures/Tip_response30.png  used on input line 16.
+(pdftex.def)             Requested size: 398.33858pt x 199.78432pt.
+File: Figures/Tilt_response30.png Graphic file (type png)
+<use Figures/Tilt_response30.png>
+Package pdftex.def Info: Figures/Tilt_response30.png  used on input line 23.
+(pdftex.def)             Requested size: 398.33858pt x 199.78432pt.
+)
+1: section
+[23
+
+
+
+ <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/Pist_response30.png> <c:/Users/alext/Documents/Leiden/Thesis/GMT_Thesis/GMT_Thesis/Figures/Tip_response30.png>] [24]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 353.
+ ("C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmtt.fd"
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Overfull \hbox (4.45775pt too wide) in paragraph at lines 355--355
+\T1/cmtt/m/n/10.95 web / 20101006071550 / http : / / keckobservatory . org / cosmicmatters / article /
+ []
+
+
+Overfull \hbox (21.76338pt too wide) in paragraph at lines 355--355
+[]\T1/ppl/m/n/10.95 Robert J. Noll.   ZERNIKE POLY-NO-MI-ALS AND AT-MO-SPHERIC TUR-BU-LENCE.
+ []
+
 \tf@ptc=\write9
 \openout9 = `main.ptc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 351.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
- (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.aux (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter1.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter2.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter3.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter4.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter5.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices/AppendixA.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 351.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 351.
+1: section
+[25
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 358.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 358.
+ (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.aux (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter1.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter2.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter3.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters/Chapter4.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices/AppendixA.aux) (c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices/AppendixB.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 358.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 358.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A785CBEF0C681A43F6734DBA5667401A;1103.
+(rerunfilecheck)             Checksum: A33AC569C60AB516EACF3A03C699553C;2750.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38218 strings out of 480795
- 801702 string characters out of 2895571
- 1438342 words of memory out of 3000000
- 53562 multiletter control sequences out of 15000+200000
- 569946 words of font info for 83 fonts, out of 3000000 for 9000
+ 39418 strings out of 480795
+ 822327 string characters out of 2895571
+ 1461769 words of memory out of 3000000
+ 54626 multiletter control sequences out of 15000+200000
+ 588398 words of font info for 114 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,19n,81p,1232b,1694s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/alext/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/alext/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/alext/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/alext/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/alext/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.pdf (31 pages, 102183 bytes).
+ 64i,20n,81p,1232b,2837s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\alext\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk>{C:/Users/alext/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/alext/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alext/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/alext/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/alext/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/alext/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/alext/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/alext/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/alext/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on c:/Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.pdf (45 pages, 4017208 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 620 PDF objects out of 1000 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
+ 328 words of extra memory for PDF output out of 10000 (max. 10000000)
 

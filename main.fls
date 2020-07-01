@@ -110,6 +110,12 @@ INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec\titlet
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec\titletoc.sty
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\mathpazo.sty
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\mathpazo.sty
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
@@ -299,10 +305,10 @@ INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chap
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter3.aux
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter4.aux
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter4.aux
-INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter5.aux
-INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter5.aux
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices\AppendixA.aux
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices\AppendixA.aux
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices\AppendixB.aux
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices\AppendixB.aux
 OUTPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.aux
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd
@@ -428,32 +434,238 @@ INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8t.tfm
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.ptc
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.ptc
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\..\Figures\twomen.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\..\Figures\twomen.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\..\Figures\twomen.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\..\Figures\twomen.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\..\Figures\twomen.jpg
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplrc8t.tfm
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplb8t.vf
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplb8t.vf
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplrc8t.vf
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8t.tfm
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\..\Figures\Jerry Nelson.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\..\Figures\Jerry Nelson.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\..\Figures\Jerry Nelson.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\..\Figures\Jerry Nelson.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\..\Figures\Jerry Nelson.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\..\Figures\KCompDiag.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\..\Figures\KCompDiag.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\..\Figures\KCompDiag.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\..\Figures\KCompDiag.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\..\Figures\KCompDiag.jpg
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplro8t.vf
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplro8r.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplb8t.vf
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplb8r.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\mathpazo\zplmr7y.vf
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\GMT_phase_measure.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\GMT_phase_measure.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\GMT_phase_measure.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\GMT_phase_measure.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\GMT_phase_measure.png
 OUTPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter2.aux
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter2.tex
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter2.tex
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.ptc
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.ptc
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\GMT_seg_choice.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\GMT_seg_choice.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\GMT_seg_choice.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\GMT_seg_choice.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\GMT_seg_choice.jpg
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplrc8t.tfm
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\gmt_phase_mask.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\gmt_phase_mask.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\gmt_phase_mask.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\gmt_phase_mask.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\gmt_phase_mask.jpg
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplrc8t.vf
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\isolated_seg.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\isolated_seg.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\isolated_seg.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\isolated_seg.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\isolated_seg.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\tip_single_seg.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\tip_single_seg.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\tip_single_seg.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\tip_single_seg.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\tip_single_seg.jpg
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\mathpazo\zplmr7m.vf
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\mathpazo\fplmri.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\mathpazo\zplmr7t.vf
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplr7t.vf
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\mathpazo\zplmr7m.vf
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\mathpazo\fplmri.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplri8r.tfm
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\tilt_comb.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\tilt_comb.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\tilt_comb.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\tilt_comb.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\tilt_comb.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\PSF_tilt.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\PSF_tilt.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\PSF_tilt.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\PSF_tilt.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\PSF_tilt.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\I_diff.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\I_diff.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\I_diff.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\I_diff.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\I_diff.png
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\mathpazo\zplmr7t.vf
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\mathpazo\fplmr.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\mathpazo\zplmr7y.vf
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\mathpazo\zplmr7m.vf
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\mathpazo\fplmri.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplri8r.tfm
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Singular_value_decomposition_visualisation.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Singular_value_decomposition_visualisation.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Singular_value_decomposition_visualisation.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Singular_value_decomposition_visualisation.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Singular_value_decomposition_visualisation.jpg
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8t.tfm
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\singular_values.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\singular_values.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\singular_values.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\singular_values.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\singular_values.png
 OUTPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter3.aux
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter3.tex
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter3.tex
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.ptc
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.ptc
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\optical_bed.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\optical_bed.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\optical_bed.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\optical_bed.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\optical_bed.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\ShearPlateDrawing.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\ShearPlateDrawing.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\ShearPlateDrawing.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\ShearPlateDrawing.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\ShearPlateDrawing.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\fringes.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\fringes.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\fringes.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\fringes.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\fringes.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\shear_coll.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\shear_coll.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\shear_coll.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\shear_coll.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\shear_coll.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\new_int_focal_plane.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\new_int_focal_plane.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\new_int_focal_plane.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\new_int_focal_plane.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\new_int_focal_plane.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\final_focal.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\final_focal.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\final_focal.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\final_focal.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\final_focal.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\GMT_gvAPP_04_03_2020.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\GMT_gvAPP_04_03_2020.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\GMT_gvAPP_04_03_2020.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\GMT_gvAPP_04_03_2020.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\GMT_gvAPP_04_03_2020.jpg
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\vapp_square.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\vapp_square.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\vapp_square.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\vapp_square.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\vapp_square.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\residual.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\residual.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\residual.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\residual.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\residual.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\noll_indexing.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\noll_indexing.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\noll_indexing.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\noll_indexing.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\noll_indexing.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\1024px-Zernike_polynomials2.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\1024px-Zernike_polynomials2.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\1024px-Zernike_polynomials2.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\1024px-Zernike_polynomials2.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\1024px-Zernike_polynomials2.png
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\mathpazo\zplmr7y.vf
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\mathpazo\fplmr.tfm
 OUTPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter4.aux
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter4.tex
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter4.tex
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.ptc
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.ptc
-OUTPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter5.aux
-INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter5.tex
-INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter5.tex
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Tilt_response100.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Tilt_response100.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Tilt_response100.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Tilt_response100.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Tilt_response100.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Tilt_response30.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Tilt_response30.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Tilt_response30.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Tilt_response30.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Tilt_response30.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\wavefront_error.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\wavefront_error.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\wavefront_error.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\wavefront_error.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\wavefront_error.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\ampvnoll.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\ampvnoll.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\ampvnoll.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\ampvnoll.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\ampvnoll.png
 OUTPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices\AppendixA.aux
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices\AppendixA.tex
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices\AppendixA.tex
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\RM.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\RM.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\RM.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\RM.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\RM.png
+OUTPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices\AppendixB.aux
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices\AppendixB.tex
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices\AppendixB.tex
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Pist_response30.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Pist_response30.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Pist_response30.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Pist_response30.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Pist_response30.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Tip_response30.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Tip_response30.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Tip_response30.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Tip_response30.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Tip_response30.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Tilt_response30.png
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Figures\Tilt_response30.png
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ectt1095.tfm
 OUTPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.ptc
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\palatino\pplrc8t.vf
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\palatino\pplr8r.tfm
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.aux
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter1.aux
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter1.aux
@@ -463,15 +675,25 @@ INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chap
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter3.aux
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter4.aux
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter4.aux
-INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter5.aux
-INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Chapters\Chapter5.aux
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices\AppendixA.aux
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices\AppendixA.aux
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices\AppendixB.aux
+INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\Appendices\AppendixB.aux
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.out
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.out
 INPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.run.xml
 OUTPUT c:\Users\alext\Documents\Leiden\Thesis\GMT_Thesis\GMT_Thesis\main.run.xml
+INPUT C:\Users\alext\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1095.pk
+INPUT C:\Users\alext\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1095.pk
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\base\8r.enc
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\mathpazo\fplmr.pfb
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\mathpazo\fplmr.pfb
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\mathpazo\fplmri.pfb
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\mathpazo\fplmri.pfb
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplb8a.pfb
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplb8a.pfb
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\palatino\uplr8a.pfb
