@@ -227,7 +227,16 @@ Sink or swim}\bigbreak
 
 \begin{abstract}
 \addchaptertocentry{\abstractname} % Add the abstract to the table of contents.
-The 25 meter, Giant Magellan Telescope (GMT) will be comprised of seven 8.4 meter mirrors that will have a resolving power ten times greater than that of the Hubble Space Telescope. The GMT will be capable of directly imaging nearby exoplanets with an angular resolution of 10-30 milliarcseconds in the near-IR. To make this possible, the seven separate mirrors need to be co-phased to a fraction of a wavelength to act as one 25 meter aperture. To co-phase the mirrors, we propose to use an Asymmetric Pupil vector Apodizing Phase Plate (APvAPP). The APvAPP generates two science images which can be used to sense aberrations in the pupil.  This focal-plane wavefront sensing (FPWFS) technique will allow for the determination of segment piston, tip, and tilt. For simulation work, the python software package HCIPy was used to optimize the asymmetry of the APvAPP. Simulations are veried in the laboratory with a low-order deformable mirror (DM) to induce and then correct wavefront errors into a liquid crystal APvAPP located in a conjugate pupil plane. Here we present results of the development, optimization, and testing of the APvAPP in the laboratory.
+The 25 meter, Giant Magellan Telescope (GMT) will be comprised of seven 8.4 meter mirrors that will have a
+resolving power ten times greater than that of the Hubble Space Telescope. The GMT will be capable of directly
+imaging nearby exoplanets with an angular resolution of 10-30 milliarcseconds in the near-IR. To make this
+possible, the seven separate mirrors need to be co-phased to a fraction of a wavelength to act as one 25 meter
+aperture. To co-phase the mirrors, we propose to use an Asymmetric Pupil vector Apodizing Phase Plate (APvAPP). The
+APvAPP generates two coronagraphic point-spread functions which can be used to sense aberrations in the pupil.  This focal-plane
+wavefront sensing (FPWFS) technique will allow for the determination of segment piston, tip, and tilt. For
+simulation work, the python software package HCIPy was used to simulate images from the effects of the modal basis set.
+Simulations are verified on an optical bench by taking exposures from the APvAPP to calculate wavefront errors using code written by Steven Bos.
+Here we present results of the development and testing of the APvAPP for segment co-phasing in the laboratory.
 \end{abstract}
 
 %----------------------------------------------------------------------------------------
@@ -256,7 +265,7 @@ Lastly, Professor Matthew Kenworthy
 
 \listoffigures % Prints the list of figures
 
-\listoftables % Prints the list of tables
+% \listoftables % Prints the list of tables
 
 %----------------------------------------------------------------------------------------
 %	ABBREVIATIONS
