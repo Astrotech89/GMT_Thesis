@@ -13,19 +13,24 @@
 
 The simulation portion of this research was to find what the response in the focal plane of our science image would
 be if one or more of the segments was out of phase from the rest.  In order to do this, one segment will be isolated
-at a time and each of the three aberrations will be applied to it (Piston, Tip, or Tilt).  All 21 combinations for
+at a time and each of the three modes will be applied to it (Piston, Tip, or Tilt).  All 21 combinations for
 P/T/T for all seven segments will be put into a matrix called the response matrix (RM).  All coding was done in
-python using the python package HCIpy made in house at Leiden University \cite{por2018hcipy}.  This section will go
-into the process of building the response matrix as well as preparing the FPWFS.
+python using the python package HCIpy made in house at Leiden University \cite{por2018hcipy}.  %Further explain HCIpy
+HCIpy is a Python framework used for high contrast imaging simulation that is able to implement adaptive optic simulation, coronagraphy and optical diffraction calculations \cite{por2018hcipy}.
+This section will go into the process of building the response matrix as well as preparing the FPWFS.
 
 
 \section{Response Matrix}
 \label{sec:RM}
 
-At the beginning of this project I was given two files, both of which were representative of the GMT pupil.  One was
-a binary amplitude mask of the GMT pupil (Figure \ref{fig:amp_mask} and the other was the phase mask (Figure
+%Using an empirical, linear wavefront estimator (which a RM is).  Also discuss what the advantages and disadvantages are.
+
+
+Simulations started off with supplied GMT pupil images. %Reword
+One was
+a binary amplitude mask of the GMT pupil (Figure \ref{fig:amp_mask} and the other was the phase (Figure
 \ref{fig:phase_mask}) that would be induced by the vAPP.  Both masks have the asymmetry discussed in \S
-\ref{sec:vAPP} in order to detect all of the modal basis set in the focal plane.
+\ref{sec:vAPP} in order to detect all of the modal basis set in the focal plane.  
 
 \begin{figure}[H]
 \centering
@@ -41,12 +46,32 @@ a binary amplitude mask of the GMT pupil (Figure \ref{fig:amp_mask} and the othe
   \caption{GMT phase mask that will be induced by the vAPP.  Each segment has a sinusoidal wave going across each segment.}
   \label{fig:phase_mask}
 \end{subfigure}
-\caption{Asymmetric pupil planes used for simulation of the GMT FPWFS test}
+% \caption{Asymmetric pupil planes used for simulation of the GMT FPWFS test}
 \label{fig:asym_pupils}
 \end{figure}
 
+%Add image of the nominal PSF
 
-In order to apply aberrations to a segment, I needed to isolate one of the segments.  The code makes a circle of
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=8cm]{Figures/GMT_amp_phase_comb.jpg}
+  \caption{The pupil plane after combining the amplitude and phase masks.}
+  \label{fig:pupil_comb}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=6cm]{Figures/GMT_focal_plane.jpg}
+  \caption{Focal plane image of the vAPP PSFs with no modes applied.}
+  \label{fig:focal_comb}
+\end{subfigure}
+% \caption{Asymmetric pupil planes used for simulation of the GMT FPWFS test}
+\label{fig:zero_GMT}
+\end{figure}
+
+
+In order to apply aberrations to a segment, individual segments needed to be isolated.  The code makes a circle of
 ones roughly the shape of the segment, and zeros across the rest of the array. When the circle mask was multiplied
 by Figure \ref{fig:amp_mask} we get the segment isolated (Figure \ref{fig:single_seg}).  With the segment isolated,
 we now want to add an aberration to this segment.  As an example I will look at tilt.  With the segment isolated,
@@ -67,11 +92,12 @@ segment (Figure \ref{fig:tilt_seg}).
   \caption{Isolated segment with a tilt applied to it.}
   \label{fig:tilt_seg}
 \end{subfigure}
-\caption{Isolated segment manipulation}
+\caption{Isolated segment manipulation.  Axes are in pixel units.  Colorbar is for modal amplitudes.}
 \label{fig:isolated_seg}
 \end{figure}
 
-However, we want to know the physical values of the tilt rather than just applying a tilt to the segment.  In order
+However, in order to properly simulate phase errors, we need to translate physical values to phase values.
+In order
 to do this, we will apply an optical path difference (OPD) between the unaberrated segment and the segment with
 aberration.  The phase difference is given by:
 
@@ -80,7 +106,7 @@ aberration.  The phase difference is given by:
     \label{eq:OPD}
 \end{equation}
 
-Where $d$ is a distance in nanometers and $\lambda$ is the operation wavelength.  In this case, $\lambda = 532$nm. 
+Where $d$ is the amplitude in nanometers of the mode and $\lambda$ is the operation wavelength in the same units.  In this case, $\lambda = 532$nm. 
 This is because the vAPP used on our optical testbed was tuned for lasers operating at 532nm.  For simplicity, the
 code constructed the matrix for an OPD of 1nm so Equation \ref{eq:OPD} is simplified to $\phi = 2 \pi / \lambda$. 
 With the phase difference calculated, it is multiplied by the tilt array (Figure \ref{fig:tilt_seg}), to give us a
@@ -89,27 +115,27 @@ aberration (Figure \ref{fig:tilt_seg}), amplitude mask (Figure \ref{fig:amp_mask
 \ref{fig:phase_mask}).  To do this, I used the following equation:
 
 \begin{equation}
-    I = A \times e^{i \phi}
+    E = A \times e^{i \phi} \;\;\; \rightarrow \;\;\; I = |E|^2
     \label{eq:intensity}
 \end{equation}
 
 Where $I$ is intensity, $A$ is the amplitude (Figure \ref{fig:amp_mask}) and $\phi$ is the phase of light (Figure
 \ref{fig:phase_mask}).  However, just using Equation \ref{eq:intensity} will give a unaberrated image.  Using the
-OPD, we combine the aberration and unaberrated pupil plane in the exponential because these are phase differences. 
+phase, we combine the aberration and unaberrated pupil plane in the exponential because these are phase differences. 
 This is done for each of the three PSFs that come from the vAPP.  So we now have three different intensity
 equations:
 
 \begin{align}
-    & I_{top} = A \times e^{(i \cdot (\phi_{ab} + \phi))} \label{eq:top_PSF} \\
-    & I_{leakage} = A \times 0.1 \times e^{i \phi_{ab}} \label{eq:leak_PSF} \\
-    & I_{bottom} = A \times e^{(-i \phi) + (i \phi_{ab})} \label{eq:bottom_PSF}
+    & E_{top} = A \times e^{(i \cdot (\phi_{ab} + \phi))} \label{eq:top_PSF} \\
+    & E_{leakage} = A \times 0.1 \times e^{i \phi_{ab}} \label{eq:leak_PSF} \\
+    & E_{bottom} = A \times e^{(-i \phi) + (i \phi_{ab})} \label{eq:bottom_PSF}
 \end{align}
 
 Here $\phi_{ab}$ is the phase aberration we previously made, and the multiplication factor of 0.1 for Equation
 \ref{eq:leak_PSF} is an intensity approximation of the leakage term.  With all of these combined we get a pupil
-plane as shown in Figure \ref{fig:tilt_pupil}.  However, we want to propagate each PSF separately and then add up
-the intensities.  Propagation is done with an inbuilt function of HCIpy called FraunhoferPropagator
-\cite{por2018hcipy}.  After each PSF is propagated and added together in the focal plane, we get an image like that
+plane as shown in Figure \ref{fig:tilt_pupil}.  However, we want to propagate each electric field separately and then add up
+the intensities after propagation.  Propagation is done with an inbuilt function of HCIpy called FraunhoferPropagator that assumes that the lens is a perfect propagator \cite{por2018hcipy}.  
+After each field is propagated and added together in the focal plane, we get an image like that
 in Figure \ref{fig:tilt_focal}.
 
 \begin{figure}[H]
@@ -117,7 +143,7 @@ in Figure \ref{fig:tilt_focal}.
 \begin{subfigure}{.5\textwidth}
   \centering
   \includegraphics[width=6.5cm]{Figures/tilt_comb.jpg}
-  \caption{Pupil image with induced tilt aberration}
+  \caption{Pupil image with induced tilt aberration on the lower right hand segments.  Note the change in color compared to Figure \ref{fig:pupil_comb}.}
   \label{fig:tilt_pupil}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
@@ -126,16 +152,16 @@ in Figure \ref{fig:tilt_focal}.
   \caption{Log scale of focal plane with tilt aberration.}
   \label{fig:tilt_focal}
 \end{subfigure}
-\caption{Pupil and Focal plane of tilt applied to segment 4.}
+\caption{Pupil and Focal plane of tilt applied to segment 4.  There is additional intensity in the dark holes compared to Figure \ref{fig:focal_comb}.}
 \label{fig:abb_images}
 \end{figure}
 
-Last step is to find the response in the focal plane for this aberration.  This is simply done by repeating this
+Last step is to find the negative response in the focal plane for this aberration.  This is simply done by repeating this
 process but instead changing Equation \ref{eq:OPD} to have a negative OPD applied to it.  So the equation now
 becomes $\phi = -2 \pi / \lambda$.  After repeating the process, we get a new focal plane image.  Now the response
 for a tilt on segment 4 can be calculated by taking $I_{pos} - I_{neg}$ (Figure \ref{fig:I_diff}).  This image is
 stored as a 1-D vector and all 21 combinations of P/T/T for each of the seven segments are stored in a matrix.  This
-is our Response Matrix.  Now that there is a RM, we want to create the inverse of this matrix so that an inputted
+is our Response Matrix (RM).  Now that there is a RM, we want to create the inverse of this matrix so that an inputted
 aberration can output an amplitude of each mode in our modal basis set (P/T/T).  For a full array of response matrix images please refer to Appendix \ref{AppendixA}.
 
 
@@ -153,7 +179,7 @@ aberration can output an amplitude of each mode in our modal basis set (P/T/T). 
 
 Construction of the control matrix involves taking a pseudo-inverse of the RM.  This is done using singular value
 decomposition of the RM.  Singular value decomposition (SVD) in linear algebra, is a way of decomposing a real or
-complex square matrix into the pseudoinverse of a matrix \cite{Hestenes1958InversionResults}.  First we decompose
+complex square matrix into the pseudoinverse of a matrix and allows for furhter data analysis to be done \cite{Hestenes1958InversionResults}.  First we decompose
 our response matrix $M$ into $M = U \Sigma V^{\ast}$ and the pseudoinverse is:
 
 \begin{equation}
@@ -164,7 +190,7 @@ our response matrix $M$ into $M = U \Sigma V^{\ast}$ and the pseudoinverse is:
 \begin{figure}[H]
     \centering
     \includegraphics[width = 6cm]{Figures/Singular_value_decomposition_visualisation.jpg}
-    \caption{A visual of Singular Value Decomposition}
+    \caption{A visual of Singular Value Decomposition \cite{Hestenes1958InversionResults}.}
     \label{fig:SVD}
 \end{figure}
 
@@ -180,7 +206,7 @@ singular values $\Sigma$ and compared them to previous values calculated (Figure
 \begin{figure}[H]
     \centering
     \includegraphics[width = 14cm]{Figures/singular_values.png}
-    \caption{Singular Values of the Control Matrix}
+    \caption{Singular Values of the Control Matrix.  There is a drop off in the singular value for mode 21.  This would normally be a cutoff point if the system was directly measuring Zernike modes.  However, since these modes are what the wavefront sensor is looking for, the last mode stays in the matrix.}
     \label{fig:SV}
 \end{figure}
 

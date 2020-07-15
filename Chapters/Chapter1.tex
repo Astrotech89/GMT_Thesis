@@ -88,14 +88,10 @@ For example, the case of the Keck telescope, there is a separate instrument all 
 \section{FPWFS}
 \label{sec:fpwfs}
 
-
-
 \subsection{Vector Apodizing Phase Plate}
 \label{sec:vAPP}
 
-There are a few different approaches to doing FPWFS, but for this paper we will focus on using a type of coronagraphic imaging optic called a vector apodizing phase plate (vAPP).  A vAPP is a half-wave retarder placed in the pupil-plane.  The apodizing phase plate portion of the optic separates the right and left handed circular polarization of light and then spatially separated by a phase ramp (Figure \ref{fig:vapp_concept}) \cite{Bos2019Focal-planePlate}.
-
-
+There are a few different approaches to doing FPWFS, but for this paper we will focus on using a type of coronagraphic imaging optic called a vector-apodizing phase plate (vAPP).  A vAPP is a half-wave retarder with a spatially varying fast-axis angle placed in the pupil-plane.  The apodizing phase plate portion of the optic separates the right and left handed circular polarization of light and then spatially separated by a phase ramp (Figure \ref{fig:vapp_concept}) \cite{Bos2019Focal-planePlate}.
 
 \begin{figure}[H]
 \centering
@@ -104,23 +100,45 @@ There are a few different approaches to doing FPWFS, but for this paper we will 
 \label{fig:vapp_concept}
 \end{figure}
 
-The spatial separation after being focused will show in the focal plane as two separate coronagraphic PSF's.  However, the portion of the light that is not polarized will pass through the vAPP unaffected and will show in the focal plane as a standard PSF that can be used for referencing.  But for the purposes of this thesis, we will be looking at the three PSFs and use them to deconstruct phase differences in the segments of the GMT.
+The spatial separation after being focused will show in the focal plane as two separate coronagraphic PSF's.  However, the portion of the light that is unpolarized will pass through the vAPP unaffected and will show in the focal plane as a standard PSF that can be used for referencing.  But for the purposes of this thesis, we will be looking at the three PSFs and use them to deconstruct phase differences in the segments of the GMT.
+
+\subsection{Liquid Crystals}
+\label{sec:LC}
+
+A vAPP would not be possible without liquid crystal (LC) technology.  A liquid crystals are a state of matter that has properties between that of a conventional liquid and that of a solid crystal as can be seen in Figure \ref{fig:LC} \cite{DeHaan2012EngineeringNetworks}.  This means that the molecules that make up the material can have pseudo-fluid movement and can be oriented in a crystal like way. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=8 cm]{Figures/the-LC-phase.png}
+\caption{Concept of what the lattice structure of a liquid crystal and comparing that to a crystal and a liquid \cite{LiquidGardens}.}
+\label{fig:LC}
+\end{figure}
+
+Crystal structures are aligned using both electric and magnetic fields to induce change in the alignment of the molecules \cite{Takezoe2014HistoricalCrystals}.  With careful manipulation of the electric and magnetic field and the speed at which they are applied, different structures can be made to have different optical effects.  Figure \ref{fig:vAPP_phase} shows an example of what can be done with liquid crystals.  In fact this is the phase from a liquid crystal that generates a vAPP PSF \cite{Otten2014TheOutlook}. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=10 cm]{Figures/app_phase.jpg}
+\caption{Phase induced on liquid crystal structure to form a vAPP PSF \cite{Otten2014TheOutlook}.}
+\label{fig:vAPP_phase}
+\end{figure}
+
+
 
 
 \subsection{Asymmetric Pupil}
 \label{sec:asym_pupil}
 
 Work and theory done in this section is referenced from Steven Bos's paper \textit{Focal-plane wavefront sensing with the vector Apodizing Phase Plate} \cite{Bos2019Focal-planePlate}.
-
 What makes wavefront sensing possible with a vAPP is the asymmetry that is placed in the pupil plane.  The electric field in the pupil can be written down as:
 
 \begin{align}
     E_{pupil}(r) &= A(r) e^{i \theta(r)} \\
-    &= A(r) (\cos[\theta (r)] + i\sin[\theta (r)]
-    \label{eq:E_field}
+    &= A(r) (\cos[\theta (r)] + i\sin[\theta (r)] \label{eq:E_field} \\ 
+    I(r) &\propto |E(r)|^2 \label{eq:I_E}
 \end{align}
 
-As seen in Equation \ref{eq:E_field}, there is an imaginary component to the electric field.  Propagate this to the focal plane, we get a similar equation only with an added constant of integration.  So this means that only some of the aberrations will appear in our focal plane.  Specifically even phase aberrations will be left out of the focal plane while odd phase aberrations will continue to pass through.  Adding an asymmetry to the pupil plane creates an odd amplitude which generates a real electric field.  The real electric field will interfere with the aberrations' real electric field and will enable detection of the aberration in the focal plane \cite{Bos2019Focal-planePlate}.
+As seen in Equation \ref{eq:E_field}, there is an imaginary component to the electric field.  Propagate this to the focal plane, we get a similar equation only with an added constant of integration.  So this means that only some of the aberrations will appear in our focal plane.  Specifically even phase aberrations will be in the imaginary plane and will not be seen in the focal plane while odd phase aberrations will continue to pass through.  Adding an asymmetry to the pupil plane creates an odd amplitude which generates a real electric field in the focal plane.  The real electric field will interfere with the aberrations' real electric field and will enable detection of the aberration in the focal plane \cite{Bos2019Focal-planePlate}.
 
 
 
@@ -128,11 +146,14 @@ As seen in Equation \ref{eq:E_field}, there is an imaginary component to the ele
 \centering
 \includegraphics[width=14 cm]{Figures/asymmetry.png}
 \caption{Figure showing how adding an asymmetry to the pupil plane propagates even phase aberrations and not through a symmetric pupil plane \cite{Bos2019Focal-planePlate}.}
-\label{fig:vapp_concept}
+\label{fig:asymm}
 \end{figure}
 
 With the theory in place, we can implement this into showing that using an Asymmetric vector Apodizing Phase Plate can show phase errors in the GMT segments.
 
+\section{Research}
+
+Since the GMT is going to be comprised of seven different mirror segments, co-phasing the segments accurately is a necessity.  In the following chapters this thesis will cover the steps taken to demonstrate that co-phasing the GMT segments is possible using focal plane wavefront sensing using an asymmetric pupil, vector-apodizing phase plate.  In Chapter \ref{Chapter2}, I go over the simulation to detect wavefront measurements using an empirical response matrix.  In Chapter \ref{Chapter3}, I go over the physical implementation of FPWFS on an optical bench.  However, for this section, for reasons explained in the chapter, we could not test co-phasing of the segments.  Finally in Chapter \ref{Chapter4}, I present the results from the simulation work and lab bench work.
 
 %----------------------------------------------------------------------------------------
 %	SECTION 1

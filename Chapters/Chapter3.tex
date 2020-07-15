@@ -18,23 +18,40 @@ With the simulation work done showing that we can indeed do focal plane wavefron
 \section{Optical Layout}
 \label{sec:optical_layout}
 
-The goals of the optical testbed were to simulate piston, tip, and tilt onto each segment of the GMT pupil using a deformable mirror (DM).  So the constraints of our optical system were to match the size of the DM and then zoom onto the GMT vAPP.  First step was to couple a 532nm laser to a single mode optical fiber.  As the laser light leaves the fiber, it will diverge.  The light is collimated using an achromat onto an 11mm circular aperture.  The aperture size was dependant on the aperture size of the DM and made slightly undersized in order to avoid the DM edge actuators which tend to not perform reliably.  With the entrance pupil (EP) set, the achromats need to have a 1:1 relay of the pupil plane onto the DM.  Therefore they were all set to the same focal length.
+The goals of the optical testbed were to simulate piston, tip, and tilt onto each segment of the GMT pupil using a deformable mirror (DM).  So the constraints of our optical system were to match the size of the DM ($\approx$\diameter 11mm) and then zoom onto the GMT vAPP ($\approx$\diameter 6mm).  First step was to couple a 532nm laser to a single mode optical fiber.  As the laser light leaves the fiber, it will diverge.  The light is collimated using an achromat onto an 11mm circular aperture.  The aperture size was dependant on the aperture size of the DM and made slightly undersized in order to avoid the DM edge actuators which tend to not perform reliably.  With the entrance pupil (EP) set, the achromats need to have a 1:1 relay of the pupil plane onto the DM.  Therefore they were all set to the same focal length.
 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width = 12cm]{Figures/optical_bed.png}
-    \caption{Paraxial view of the GMT testbed}
+    \caption{Cartoon of the GMT testbed.  In the end the SHWFS was implemented due to shutdown.}
     \label{fig:optical_layout}
 \end{figure}
 
-After the DM, there needed to be a $\approx$ 1:2 relay in order to zoom the pupil from the 11mm DM aperture to the $\approx 6$mm vAPP aperture on the LC Mask.  Then from the vAPP, the last achromat needed to have a long enough focal length to Nyquist sample the Airy core of the PSF.  Before the LC MASK, a beam splitter was put in to direct light to a Shack-Hartmann wavefront sensor.  This was so that verification of the aberrated wavefront was possible.  The decision to use achromats rather than monochromatic lenses was made so that other projects could use other wavelengths for their purposes.  However, our vAPP was tuned to 532nm.  Figure \ref{fig:optical_layout} shows a paraxial design of the described layout.  However, due to technical difficulties and with the addition of the current pandemic, the DM was replaced by a simple fold mirror.
+
+After the DM, there needed to be a $\approx$ 1:2 relay in order to zoom the pupil from the 11mm DM aperture to the $\approx 6$mm vAPP aperture on the LC Mask.  Then from the vAPP, the last achromat needed to have a long enough focal length to Nyquist sample the Airy core of the PSF.  Before the LC Mask, a beam splitter was put in to direct light to a Shack-Hartmann wavefront sensor.  This was so that verification of the aberrated wavefront was possible.  The decision to use achromats rather than monochromatic lenses was made so that other projects could use other wavelengths and allow for a broader bandwidths.  However, our vAPP was tuned to 532nm.  Figure \ref{fig:optical_layout} shows a paraxial design of the described layout.  However, due to technical difficulties and with the addition of the current pandemic, the DM was replaced by a simple fold mirror.  Based off of these constraints, a list of of achromats was chosen based on the stock that was available in the optical lab.  This list can be seen in Table \ref{tab:achromats}.
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Optic} & \textbf{Focal Length} \\ \hline
+A1             & 150mm                 \\ \hline
+A2             & 150mm                 \\ \hline
+A3             & 150mm                 \\ \hline
+A4             & 550mm                 \\ \hline
+A5             & 400mm                 \\ \hline
+A6             & 500mm                 \\ \hline
+\end{tabular}
+\caption{List of achromat focal lengths.}
+\label{tab:achromats}
+\end{table}
 
 
 \section{Optical Alignment}
 
-Because the purpose of the optical bench was to do wavefront measurements, optical aberrations were to be kept to a minimum.  This meant going through a rigorous alignment procedure.  Initially we set up the optical bench to a rough approximation of the focal distances to get the total size of the layout.  Then each optic position was marked and removed.  A few Iris's was mounted to a post and measured the height of the outgoing light from the fiber optic.  This was so that we could keep a continuous height through out the entire system.  Next first achromat (A1) was put back in the system.  In order to properly collimiate the light path, we used a shear plate interferometer.  How a shear plate interferometer works, is that as light passes through a 45 degree angle window, part of the light is reflected on each surface.  A diagram of this can be seen in Figure \ref{fig:shearplate}.
-
+Because the purpose of the optical bench was to do wavefront measurements, optical aberrations were to be kept to a minimum.  This meant going through a rigorous alignment procedure.  Initially we set up the optical bench to a rough approximation of the focal distances to get the total size of the layout.  Then each optic position was marked and removed.  A few Iris's was mounted to a post and measured the height of the outgoing light from the fiber optic.  This was so that we could keep a continuous height through out the entire system in order to ensure that the incoming light path is normal to the optic.  This limits the amount of tip/tilt in the system.  Next first achromat (A1) was put back in the system.  In order to properly collimiate the light path, we used a shear plate interferometer.  A shear plate interferometer works by letting light pass through a 45 degree angle window and reflecting a percentage of the intensity off of each face (Figure \ref{fig:shearplate}).
 
 \begin{figure}[H]
 \centering
@@ -132,7 +149,7 @@ Next the code takes these inputs and the same amplitude and phase masks used in 
     \label{eq:noll}
 \end{equation}
 
-A comparison of the Noll index set and the Zernike mode ordering can be seen in Figure \ref{fig:zerns}.  The code ignores the first four indices of the Noll basis (piston, tip, tilt, and defocus)  because the system is not sensitive to these modes.  To be clear, the system is insensitive to global piston, tip, and tilt.  However, we are looking for piston, tip, and tilt of individual segments which are detected by this process.  Here the code takes the simulated vAPP image and propagates the image to the pupil plane and applies the first mode and changes the amplitude of that mode to best match the input image.  This continues for each of the modes until the specified end mode.  The output of this code is an amplitude of all the modal set and then summed into a wavefront image.  The results will be discussed in \S \ref{sec:testbed}.
+A comparison of the Noll index set and the Zernike mode ordering can be seen in Figure \ref{fig:zerns}.  The code ignores the first four indices of the Noll basis (piston, tip, and tilt) because the system is not sensitive to these modes.  To be clear, the system is insensitive to global piston, tip, and tilt.  However, we are looking for piston, tip, and tilt of individual segments which are detected by this process.  Here the code takes the simulated vAPP image and propagates the image to the pupil plane and applies the first mode and changes the amplitude of that mode to best match the input image.  This continues for each of the modes until the specified end mode.  The output of this code is an amplitude of all the modal set and then summed into a wavefront image.  The results will be discussed in \S \ref{sec:testbed}.
 
 \begin{figure}[H]
 \centering
@@ -148,7 +165,7 @@ A comparison of the Noll index set and the Zernike mode ordering can be seen in 
   \caption{Zernike mode ordering \cite{Noll1976ZERNIKETURBULENCE.}}
   \label{fig:Zernike}
 \end{subfigure}
-\caption{Showing noll indexing compared to a visual of the Zernike mode basis set.}
+\caption{Showing Noll indexing compared to a visual of the Zernike mode basis set.}
 \label{fig:zerns}
 \end{figure}
 

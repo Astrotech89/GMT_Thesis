@@ -52,11 +52,13 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{amsmath}
 
 \usepackage[backend=biber,style=numeric,natbib=true,maxnames=9]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\addbibresource{add_references.bib}
 \addbibresource{references.bib}
 \newcommand{\procspie}{Proceedings of the SPIE}
 \addbibresource{example.bib} % The filename of the bibliography
 
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+\usepackage{wasysym}
 
 \newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
 
@@ -265,7 +267,7 @@ Lastly, Professor Matthew Kenworthy
 
 \listoffigures % Prints the list of figures
 
-% \listoftables % Prints the list of tables
+\listoftables % Prints the list of tables
 
 %----------------------------------------------------------------------------------------
 %	ABBREVIATIONS
